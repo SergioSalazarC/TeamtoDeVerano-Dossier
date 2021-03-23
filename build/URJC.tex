@@ -1,0 +1,29 @@
+\documentclass[10pt, a4paper, notitlepage]{report}
+\usepackage{kactlpkg}
+\kactlcontentdir{../content}
+
+\university{URJC - LactoseOverdose}{Universidad Rey Juan Carlos}{URJC-Logo}
+\team{LactoseOverdose}{Jorge Prieto Gómez, José Andrés Hernández Chávez, Daniel Ávila Fernández}
+\contest{SWERC 2018}{December 1, 2018}
+
+\date{\today}
+
+\begin{document}
+	%\maketeampage{MilkTeam}{Isaac Lozano Osorio, Jakub Jan Luczyn, Raúl Martín Santamaría}{SWERC
+    %2018}{\(1^{st}\) December, 2018}
+	\maketeampage
+	\begin{multicols*}{3}
+	\setcounter{tocdepth}{0}
+	\thispagestyle{fancy}
+	\kactlchapter{contest}
+	\kactlchapter{data-structures}
+	\kactlchapter{graph}
+	\kactlchapter{strings}
+	\kactlchapter{math}
+	\kactlchapter{geometry}
+	\kactlchapter{numerical}
+	\kactlchapter{number-theory}
+	\kactlchapter{combinatorial}
+	\kactlchapter{various}
+	\end{multicols*}
+\end{document}

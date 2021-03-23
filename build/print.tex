@@ -1,0 +1,35 @@
+\documentclass[10pt, a4paper, notitlepage]{report}
+\usepackage[final]{pdfpages}
+\usepackage{fancyhdr}                   % Fancy headers
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\headheight 25pt
+\lhead{
+  \setlength{\unitlength}{0.5cm}
+  \begin{picture}(0,0)
+    \put(-7,6){Universidad Rey Juan Carlos - URJC}
+  \end{picture}
+}
+\rhead{
+  \setlength{\unitlength}{0.5cm}
+  \begin{picture}(0,0)
+    \put(6,6){\thepage}
+  \end{picture}
+}
+\lfoot{}\cfoot{}\rfoot{}
+\fancyheadoffset{0pt}
+\fancyfootoffset{0pt}
+\setlength\headsep{5pt}
+
+
+\begin{document}
+\includepdf[pages=1]{URJC.pdf}
+\setcounter{page}{1}
+\includepdf[pages=2-, angle=90, scale=0.95, pagecommand={}]{URJC.pdf}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
