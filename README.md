@@ -24,11 +24,11 @@ Check KTH pdf again for new additions, and changes in compilation
 ## Status
 - combinatorial
 - data-structures
-  - [x] FenwickTree
-  - [x] FenwidckTree2d
-  - [x] LineContainer
-  - [x] RMQ
-  - [x] OrderedSet
+  - [ ] FenwickTree
+  - [ ] FenwidckTree2d
+  - [ ] LineContainer
+  - [ ] RMQ
+  - [ ] OrderedSet
   - [ ] HashMap
   - [ ] Segment Tree (temporaly removed)
   - [ ] Treap (need to understand)
@@ -36,37 +36,37 @@ Check KTH pdf again for new additions, and changes in compilation
 - geometry
 - graph
   - [ ] 2sat
-  - [x] ArticulationPointAndBridges
+  - [ ] ArticulationPointAndBridges
   - [ ] Biconnected components
-  - [x] Binary Jumps
-  - [x] Eularian Cycle
-  - [x] Fast MaxFlow
-  - [x] LengauerTarjan/Dominator Tree
+  - [ ] Binary Jumps
+  - [ ] Eularian Cycle
+  - [ ] Fast MaxFlow
+  - [ ] LengauerTarjan/Dominator Tree
   - [ ] LinkCutTree (need to understand)
-  - [x] MaxWeightBipartiteMatching
-  - [x] MaxflowMinCap
+  - [ ] MaxWeightBipartiteMatching
+  - [ ] MaxflowMinCap
   - [ ] MaxflowMinCost (refactor?)
-  - [x] MinCostBipartite (removed)
+  - [ ] MinCostBipartite (removed)
   - [ ] MinimalArborescenses (need to understand)
   - [ ] SCC (Fix to struct)
   - [ ] Stable Marriage
-  - [x] Global Mincut
+  - [ ] Global Mincut
 - math
 - number theory
 - numerical
-  - [x] Determinant
-  - [x] FTT
-  - [x] NTT
-  - [x] Integrate
-  - [x] MatrixInverse
-  - [x] PolyInterpolate
-  - [x] PolyRoots
-  - [x] Simplex
-  - [x] SolveLinear
-  - [x] SolveLinear2
+  - [ ] Determinant
+  - [ ] FTT
+  - [ ] NTT
+  - [ ] Integrate
+  - [ ] MatrixInverse
+  - [ ] PolyInterpolate
+  - [ ] PolyRoots
+  - [ ] Simplex
+  - [ ] SolveLinear
+  - [ ] SolveLinear2
   - [ ] SolveLinearBinary (add base finding)
 - strings
-  - [x] Ahocorasick
+  - [ ] Ahocorasick
   - [ ] CYK
   - [ ] Hashing
   - [ ] KMP
@@ -79,6 +79,5 @@ Check KTH pdf again for new additions, and changes in compilation
   - [ ] Z
 - various
   - [ ] Understand DP optimizations
-  - [ ] Delete Java?
 
 Credits to students of KTH Royal institute and Simon Lindholm for the base template of the Latex and many original source codes, and to all contributors to the original UPC2 Notebook (Michael Sammler and Eric Valls)
