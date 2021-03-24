@@ -1,8 +1,8 @@
-# Former UPC2 SWERC notebook
+# Teamto De Verano notebook
 Main branch under update, checkout 2017 branch for the version used in contest
 
 Stubs should hold mains to problems to check algorithm correctness
-## Things to Add
+## Things to Add (?)
 Check KTH pdf again for new additions, and changes in compilation
 - [ ] Centroid Decomposition
 - [ ] Better Structured MaxFlowMinCost?
