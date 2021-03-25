@@ -3,7 +3,7 @@
  * Date: 2021
  * License: CC0
  * Description: Shortest Path en un grafo ponderado
- * Time: O(E log(V))
+ * Time: O(E * log(V))
  * Status: Tested on:
  */
 
