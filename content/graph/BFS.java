@@ -23,9 +23,4 @@ public class BFS {
                 if (!visitados[k]) {
                     cola.add(k);
                     visitados[k] = true;
-                }
-
-            }
-        }
-    }
-}
+                } } } } }

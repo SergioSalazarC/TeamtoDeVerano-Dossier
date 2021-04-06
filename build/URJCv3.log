@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.23)  6 APR 2021 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.23)  6 APR 2021 22:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -494,43 +494,34 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/graph/StrongConnectedComponents.java" -o kactl.tmp )...executed.
 
- (./kactl.tmp
+ (./kactl.tmp)) (../content/math/chapter.tex
+Chapter 2.
 runsystem(python kactlprocessor.py --print-header "StrongConnectedComponents.java|StrongConnectedComponents.java" -o header2.tmp)...executed.
 
- (./header2.tmp) [1
+(./header2.tmp) [1
 
-])) (../content/math/chapter.tex
-Chapter 2.
-
+]
 Overfull \hbox (25.19077pt too wide) in paragraph at lines 37--47
 []  
  []
 
 runsystem(rd -f kactl.tmp)...executed.
 
-runsystem(python kactlprocessor.py -i "../content/math/BinomialModPrime.cpp" -o kactl.tmp )...executed.
-
-(./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
 runsystem(python kactlprocessor.py -i "../content/math/GCDLCM.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)) (../content/geometry/chapter.tex
+(./kactl.tmp)) (../content/geometry/chapter.tex
 Chapter 3.
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/Point.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "GCDLCM.cpp|GCDLCM.cpp" -o header2.tmp)...executed.
-
- (./header2.tmp) [2])
+(./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/lineDistance.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/lineDistance.pdf, id=37, 42.67899pt x 42.67899pt>
+<../content/geometry/lineDistance.pdf, id=29, 42.67899pt x 42.67899pt>
 File: ../content/geometry/lineDistance.pdf Graphic file (type pdf)
 <use ../content/geometry/lineDistance.pdf>
 Package pdftex.def Info: ../content/geometry/lineDistance.pdf  used on input line 11.
@@ -546,7 +537,7 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/SegmentDistance.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/SegmentDistance.pdf, id=38, 42.67899pt x 42.67899pt>
+<../content/geometry/SegmentDistance.pdf, id=30, 42.67899pt x 42.67899pt>
 File: ../content/geometry/SegmentDistance.pdf Graphic file (type pdf)
 <use ../content/geometry/SegmentDistance.pdf>
 Package pdftex.def Info: ../content/geometry/SegmentDistance.pdf  used on input line 14.
@@ -557,12 +548,14 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/SegmentIntersection.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/SegmentIntersection.pdf, id=39, 42.67899pt x 42.67899pt>
+<../content/geometry/SegmentIntersection.pdf, id=31, 42.67899pt x 42.67899pt>
 File: ../content/geometry/SegmentIntersection.pdf Graphic file (type pdf)
 <use ../content/geometry/SegmentIntersection.pdf>
 Package pdftex.def Info: ../content/geometry/SegmentIntersection.pdf  used on input line 18.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
-)
+runsystem(python kactlprocessor.py --print-header "SegmentDistance.h|SegmentDistance.h" -o header2.tmp)...executed.
+
+ (./header2.tmp) [2 <../content/geometry/lineDistance.pdf> <../content/geometry/SegmentDistance.pdf>])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/SegmentIntersectionQ.h" -o kactl.tmp )...executed.
@@ -578,14 +571,12 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/lineIntersection.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/lineIntersection.pdf, id=40, 42.67899pt x 42.67899pt>
+<../content/geometry/lineIntersection.pdf, id=105, 42.67899pt x 42.67899pt>
 File: ../content/geometry/lineIntersection.pdf Graphic file (type pdf)
 <use ../content/geometry/lineIntersection.pdf>
 Package pdftex.def Info: ../content/geometry/lineIntersection.pdf  used on input line 14.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
-runsystem(python kactlprocessor.py --print-header "lineIntersection.h|lineIntersection.h" -o header2.tmp)...executed.
-
- (./header2.tmp) [3 <../content/geometry/lineDistance.pdf> <../content/geometry/SegmentDistance.pdf> <../content/geometry/SegmentIntersection.pdf> <../content/geometry/lineIntersection.pdf>])
+)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/lineIntersectionv2.h" -o kactl.tmp )...executed.
@@ -611,7 +602,7 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/linearTransformation.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/linearTransformation.pdf, id=176, 42.67899pt x 42.67899pt>
+<../content/geometry/linearTransformation.pdf, id=106, 42.67899pt x 42.67899pt>
 File: ../content/geometry/linearTransformation.pdf Graphic file (type pdf)
 <use ../content/geometry/linearTransformation.pdf>
 Package pdftex.def Info: ../content/geometry/linearTransformation.pdf  used on input line 13.
@@ -633,7 +624,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 \OT1/pcr/m/n/7 // sweeps j such that (j-i) represents the number of positively
  []
 
-)
+runsystem(python kactlprocessor.py --print-header "linearTransformation.h|Angle.h" -o header2.tmp)...executed.
+
+(./header2.tmp) [3 <../content/geometry/SegmentIntersection.pdf> <../content/geometry/lineIntersection.pdf> <../content/geometry/linearTransformation.pdf>])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/CanFormTriangle.cpp" -o kactl.tmp )...executed.
@@ -659,7 +652,7 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/circleTangents.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/circleTangents.pdf, id=177, 42.67899pt x 42.67899pt>
+<../content/geometry/circleTangents.pdf, id=210, 42.67899pt x 42.67899pt>
 File: ../content/geometry/circleTangents.pdf Graphic file (type pdf)
 <use ../content/geometry/circleTangents.pdf>
 Package pdftex.def Info: ../content/geometry/circleTangents.pdf  used on input line 13.
@@ -669,27 +662,13 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/inCircle.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "inCircle.cpp|inCircle.cpp" -o header2.tmp)...executed.
-
- (./header2.tmp)
-Overfull \hbox (9.87637pt too wide) has occurred while \output is active
- \OT1/cmr/bx/n/10 tionv2sideOfonSegmentlinearTransformationAngleCanFormTriangleCanFormQuadranglehasIntersectQuadranglesCircleIntersectioncircleTangentsinCircle 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (25.0pt): 
-Make it at least 34.54448pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[4 <../content/geometry/linearTransformation.pdf> <../content/geometry/circleTangents.pdf>])
+ (./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/circumcircle.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/circumcircle.pdf, id=247, 42.67899pt x 42.67899pt>
+<../content/geometry/circumcircle.pdf, id=211, 42.67899pt x 42.67899pt>
 File: ../content/geometry/circumcircle.pdf Graphic file (type pdf)
 <use ../content/geometry/circumcircle.pdf>
 Package pdftex.def Info: ../content/geometry/circumcircle.pdf  used on input line 12.
@@ -707,7 +686,7 @@ runsystem(python kactlprocessor.py -i "../content/geometry/QuarterCircles.cpp" -
  (./kactl.tmp
 
 pdfTeX warning: pdflatex (file ../content/geometry/QuarterCircles.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../content/geometry/QuarterCircles.pdf, id=248, 425.33907pt x 420.82219pt>
+<../content/geometry/QuarterCircles.pdf, id=212, 425.33907pt x 420.82219pt>
 File: ../content/geometry/QuarterCircles.pdf Graphic file (type pdf)
 <use ../content/geometry/QuarterCircles.pdf>
 Package pdftex.def Info: ../content/geometry/QuarterCircles.pdf  used on input line 11.
@@ -717,7 +696,21 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/insideCircle.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp
+runsystem(python kactlprocessor.py --print-header "QuarterCircles.cpp|insideCircle.cpp" -o header2.tmp)...executed.
+
+ (./header2.tmp)
+Overfull \hbox (27.14026pt too wide) has occurred while \output is active
+ \OT1/cmr/bx/n/10 gleCanFormTriangleCanFormQuadranglehasIntersectQuadranglesCircleIntersectioncircleTangentsinCirclecircumcircleMinimumEnclosingCircleQuarterCircles 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (25.0pt): 
+Make it at least 34.46115pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[4 <../content/geometry/circleTangents.pdf> <../content/geometry/circumcircle.pdf> <../content/geometry/QuarterCircles.pdf>])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/circle2PtsRad.h" -o kactl.tmp )...executed.
@@ -747,10 +740,7 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/PolygonCenter.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "PolygonCenter.h|PolygonCenter.h" -o header2.tmp)...executed.
-
- (./header2.tmp) [5 <../content/geometry/circumcircle.pdf> <../content/geometry/QuarterCircles.pdf>])
+ (./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/PolygonCenterOfMass.h" -o kactl.tmp )...executed.
@@ -761,7 +751,7 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/PolygonCut.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/PolygonCut.pdf, id=287, 42.67899pt x 42.67899pt>
+<../content/geometry/PolygonCut.pdf, id=283, 42.67899pt x 42.67899pt>
 File: ../content/geometry/PolygonCut.pdf Graphic file (type pdf)
 <use ../content/geometry/PolygonCut.pdf>
 Package pdftex.def Info: ../content/geometry/PolygonCut.pdf  used on input line 15.
@@ -777,12 +767,14 @@ runsystem(rd -f kactl.tmp)...executed.
 runsystem(python kactlprocessor.py -i "../content/geometry/ConvexHull.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
-<../content/geometry/ConvexHull.pdf, id=288, 42.67899pt x 42.67899pt>
+<../content/geometry/ConvexHull.pdf, id=284, 42.67899pt x 42.67899pt>
 File: ../content/geometry/ConvexHull.pdf Graphic file (type pdf)
 <use ../content/geometry/ConvexHull.pdf>
 Package pdftex.def Info: ../content/geometry/ConvexHull.pdf  used on input line 16.
 (pdftex.def)             Requested size: 42.67912pt x 42.68211pt.
-)
+runsystem(python kactlprocessor.py --print-header "PolygonConvex.cpp|ConvexHull.h" -o header2.tmp)...executed.
+
+ (./header2.tmp) [5 <../content/geometry/PolygonCut.pdf>])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/newConvexHull.cpp" -o kactl.tmp )...executed.
@@ -807,15 +799,15 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/LineHullIntersection.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "LineHullIntersection.h|LineHullIntersection.h" -o header2.tmp)...executed.
-
- (./header2.tmp) [6 <../content/geometry/PolygonCut.pdf> <../content/geometry/ConvexHull.pdf>])
+ (./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/closestPair.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp
+runsystem(python kactlprocessor.py --print-header "closestPair.h|closestPair.h" -o header2.tmp)...executed.
+
+ (./header2.tmp) [6 <../content/geometry/ConvexHull.pdf>])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/HeronWithMedians.cpp" -o kactl.tmp )...executed.
@@ -835,10 +827,7 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/geometry/sphericalDistance.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "Point3D.h|sphericalDistance.h" -o header2.tmp)...executed.
-
- (./header2.tmp) [7])) (../content/numerical/chapter.tex
+ (./kactl.tmp)) (../content/numerical/chapter.tex
 Chapter 4.
 runsystem(rd -f kactl.tmp)...executed.
 
@@ -854,7 +843,10 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/numerical/PolyInterpolate.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+ (./kactl.tmp
+runsystem(python kactlprocessor.py --print-header "PolyInterpolate.h|PolyInterpolate.h" -o header2.tmp)...executed.
+
+ (./header2.tmp) [7])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/numerical/MatrixInverse.h" -o kactl.tmp )...executed.
@@ -874,46 +866,13 @@ runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/numerical/Determinant.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp
-runsystem(python kactlprocessor.py --print-header "Determinant.h|Determinant.h" -o header2.tmp)...executed.
-
- (./header2.tmp) [8])) (../content/number-theory/chapter.tex
+ (./kactl.tmp)) (../content/number-theory/chapter.tex
 Chapter 5.
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModularArithmetic.h" -o kactl.tmp )...executed.
-
-(./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModInverse.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModPow.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModSum.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModMulLL.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
-runsystem(rd -f kactl.tmp)...executed.
-
-runsystem(python kactlprocessor.py -i "../content/number-theory/ModSqrt.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/number-theory/eratosthenes.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp)
+(./kactl.tmp)
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/number-theory/MillerRabin.h" -o kactl.tmp )...executed.
@@ -926,7 +885,7 @@ runsystem(python kactlprocessor.py -i "../content/number-theory/factor.h" -o kac
  (./kactl.tmp
 runsystem(python kactlprocessor.py --print-header "factor.h|factor.h" -o header2.tmp)...executed.
 
- (./header2.tmp) [9])
+ (./header2.tmp) [8])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/number-theory/euclid.h" -o kactl.tmp )...executed.
@@ -951,15 +910,21 @@ runsystem(python kactlprocessor.py -i "../content/others/MergeIntervals.java" -o
 (./kactl.tmp
 runsystem(python kactlprocessor.py --print-header "MergeIntervals.java|MergeIntervals.java" -o header2.tmp)...executed.
 
- (./header2.tmp) [10])
+ (./header2.tmp) [9])
 runsystem(rd -f kactl.tmp)...executed.
 
 runsystem(python kactlprocessor.py -i "../content/others/Skyline.java" -o kactl.tmp )...executed.
 
- (./kactl.tmp))
-runsystem(python kactlprocessor.py --print-header "|Skyline.java" -o header2.tmp)...executed.
+ (./kactl.tmp)) (../content/y si no ac?/chapter.tex
+Chapter 8.
+runsystem(rd -f kactl.tmp)...executed.
 
- (./header2.tmp) [11]
+runsystem(python kactlprocessor.py -i "../content/y si no ac?/troubleshoot.txt" -o kactl.tmp -l raw)...executed.
+
+(./kactl.tmp))
+runsystem(python kactlprocessor.py --print-header "troubleshoot.txt|troubleshoot.txt" -o header2.tmp)...executed.
+
+ (./header2.tmp) [10]
 \tf@ptc=\write3
 \openout3 = `URJCv3.ptc'.
 
@@ -971,18 +936,18 @@ runsystem(rm -f kactl.tmp)...executed.
 
  (./URJCv3.aux) ) 
 Here is how much of TeX's memory you used:
- 8645 strings out of 481239
- 117502 string characters out of 5920377
- 1239585 words of memory out of 5000000
- 23583 multiletter control sequences out of 15000+600000
+ 8936 strings out of 481239
+ 120708 string characters out of 5920377
+ 1204585 words of memory out of 5000000
+ 23885 multiletter control sequences out of 15000+600000
  539076 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,64p,853b,2028s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,64p,853b,2015s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on URJCv3.pdf (12 pages, 2309237 bytes).
+Output written on URJCv3.pdf (11 pages, 2301293 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 439 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

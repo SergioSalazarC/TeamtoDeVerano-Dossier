@@ -16,28 +16,24 @@
 \contentsline {subsection}{\numberline {2.2.3}Volumes}{2}%
 \contentsline {section}{\numberline {2.3}Sums}{2}%
 \contentsline {subsection}{\numberline {2.3.1}Triangles}{2}%
-\contentsline {section}{\numberline {2.4}Probability theory}{2}%
-\contentsline {subsection}{\numberline {2.4.1}Discrete distributions}{2}%
-\contentsline {subsubsection}{Binomial distribution}{2}%
-\contentsline {subsection}{\texttt {BinomialModPrime.cpp}\hspace {0.2em}}{2}%
 \contentsline {subsubsection}{GCD/LCM}{2}%
 \contentsline {subsection}{\texttt {GCDLCM.cpp}\hspace {0.2em}}{2}%
-\contentsline {chapter}{\numberline {3}Geometry}{3}%
+\contentsline {chapter}{\numberline {3}Geometry}{2}%
 \ttl@stoptoc {chapters@2}
 \ttl@starttoc {chapters@3}
-\contentsline {section}{\numberline {3.1}Geometric primitives}{3}%
-\contentsline {subsection}{\texttt {Point.h}\hspace {0.2em}}{3}%
-\contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{3}%
-\contentsline {subsection}{\texttt {pointsToLine.h}\hspace {0.2em}}{3}%
-\contentsline {subsection}{\texttt {SegmentDistance.h}\hspace {0.2em}}{3}%
+\contentsline {section}{\numberline {3.1}Geometric primitives}{2}%
+\contentsline {subsection}{\texttt {Point.h}\hspace {0.2em}}{2}%
+\contentsline {subsection}{\texttt {lineDistance.h}\hspace {0.2em}}{2}%
+\contentsline {subsection}{\texttt {pointsToLine.h}\hspace {0.2em}}{2}%
+\contentsline {subsection}{\texttt {SegmentDistance.h}\hspace {0.2em}}{2}%
 \contentsline {subsection}{\texttt {SegmentIntersection.h}\hspace {0.2em}}{3}%
 \contentsline {subsection}{\texttt {SegmentIntersectionQ.h}\hspace {0.2em}}{3}%
 \contentsline {subsection}{\texttt {segmentIntersectionPoint.h}\hspace {0.2em}}{3}%
 \contentsline {subsection}{\texttt {lineIntersection.h}\hspace {0.2em}}{3}%
-\contentsline {subsection}{\texttt {lineIntersectionv2.h}\hspace {0.2em}}{4}%
-\contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{4}%
-\contentsline {subsection}{\texttt {onSegment.h}\hspace {0.2em}}{4}%
-\contentsline {subsection}{\texttt {linearTransformation.h}\hspace {0.2em}}{4}%
+\contentsline {subsection}{\texttt {lineIntersectionv2.h}\hspace {0.2em}}{3}%
+\contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{3}%
+\contentsline {subsection}{\texttt {onSegment.h}\hspace {0.2em}}{3}%
+\contentsline {subsection}{\texttt {linearTransformation.h}\hspace {0.2em}}{3}%
 \contentsline {subsection}{\texttt {Angle.h}\hspace {0.2em}}{4}%
 \contentsline {subsection}{\texttt {CanFormTriangle.cpp}\hspace {0.2em}}{4}%
 \contentsline {subsection}{\texttt {CanFormQuadrangle.cpp}\hspace {0.2em}}{4}%
@@ -46,9 +42,9 @@
 \contentsline {subsection}{\texttt {CircleIntersection.h}\hspace {0.2em}}{4}%
 \contentsline {subsection}{\texttt {circleTangents.h}\hspace {0.2em}}{4}%
 \contentsline {subsection}{\texttt {inCircle.cpp}\hspace {0.2em}}{4}%
-\contentsline {subsection}{\texttt {circumcircle.h}\hspace {0.2em}}{5}%
-\contentsline {subsection}{\texttt {MinimumEnclosingCircle.h}\hspace {0.2em}}{5}%
-\contentsline {subsection}{\texttt {QuarterCircles.cpp}\hspace {0.2em}}{5}%
+\contentsline {subsection}{\texttt {circumcircle.h}\hspace {0.2em}}{4}%
+\contentsline {subsection}{\texttt {MinimumEnclosingCircle.h}\hspace {0.2em}}{4}%
+\contentsline {subsection}{\texttt {QuarterCircles.cpp}\hspace {0.2em}}{4}%
 \contentsline {subsection}{\texttt {insideCircle.cpp}\hspace {0.2em}}{5}%
 \contentsline {subsection}{\texttt {circle2PtsRad.h}\hspace {0.2em}}{5}%
 \contentsline {subsection}{\texttt {inCircumCircle.h}\hspace {0.2em}}{5}%
@@ -57,66 +53,63 @@
 \contentsline {subsection}{\texttt {PolygonArea.h}\hspace {0.2em}}{5}%
 \contentsline {subsection}{\texttt {PolygonAreav2.h}\hspace {0.2em}}{5}%
 \contentsline {subsection}{\texttt {PolygonCenter.h}\hspace {0.2em}}{5}%
-\contentsline {subsection}{\texttt {PolygonCenterOfMass.h}\hspace {0.2em}}{6}%
-\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{6}%
-\contentsline {subsection}{\texttt {PolygonConvex.cpp}\hspace {0.2em}}{6}%
+\contentsline {subsection}{\texttt {PolygonCenterOfMass.h}\hspace {0.2em}}{5}%
+\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{5}%
+\contentsline {subsection}{\texttt {PolygonConvex.cpp}\hspace {0.2em}}{5}%
 \contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {newConvexHull.cpp}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {PolygonPerimeter.cpp}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {PolygonDiameter.h}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {LineHullIntersection.h}\hspace {0.2em}}{6}%
-\contentsline {section}{\numberline {3.4}Misc. Point Set Problems}{7}%
-\contentsline {subsection}{\texttt {closestPair.h}\hspace {0.2em}}{7}%
+\contentsline {section}{\numberline {3.4}Misc. Point Set Problems}{6}%
+\contentsline {subsection}{\texttt {closestPair.h}\hspace {0.2em}}{6}%
 \contentsline {subsection}{\texttt {HeronWithMedians.cpp}\hspace {0.2em}}{7}%
 \contentsline {section}{\numberline {3.5}3D}{7}%
 \contentsline {subsection}{\texttt {PolyhedronVolume.h}\hspace {0.2em}}{7}%
 \contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{7}%
-\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{8}%
-\contentsline {chapter}{\numberline {4}Numerical}{8}%
+\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{7}%
+\contentsline {chapter}{\numberline {4}Numerical}{7}%
 \ttl@stoptoc {chapters@3}
 \ttl@starttoc {chapters@4}
-\contentsline {section}{\texttt {Polynomial.h}\hspace {0.2em}}{8}%
-\contentsline {section}{\texttt {PolyRoots.h}\hspace {0.2em}}{8}%
-\contentsline {section}{\texttt {PolyInterpolate.h}\hspace {0.2em}}{8}%
+\contentsline {section}{\texttt {Polynomial.h}\hspace {0.2em}}{7}%
+\contentsline {section}{\texttt {PolyRoots.h}\hspace {0.2em}}{7}%
+\contentsline {section}{\texttt {PolyInterpolate.h}\hspace {0.2em}}{7}%
 \contentsline {section}{\texttt {MatrixInverse.h}\hspace {0.2em}}{8}%
 \contentsline {section}{\texttt {SolveLinear.h}\hspace {0.2em}}{8}%
 \contentsline {section}{\texttt {SolveLinear2.h}\hspace {0.2em}}{8}%
 \contentsline {section}{\texttt {Determinant.h}\hspace {0.2em}}{8}%
-\contentsline {chapter}{\numberline {5}Number theory}{9}%
+\contentsline {chapter}{\numberline {5}Number theory}{8}%
 \ttl@stoptoc {chapters@4}
 \ttl@starttoc {chapters@5}
-\contentsline {section}{\numberline {5.1}Modular arithmetic}{9}%
-\contentsline {subsection}{\texttt {ModularArithmetic.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {ModInverse.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {ModPow.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {ModSum.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {ModMulLL.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {ModSqrt.h}\hspace {0.2em}}{9}%
-\contentsline {section}{\numberline {5.2}Primality}{9}%
-\contentsline {subsection}{\texttt {eratosthenes.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{9}%
-\contentsline {subsection}{\texttt {factor.h}\hspace {0.2em}}{9}%
-\contentsline {section}{\numberline {5.3}Divisibility}{10}%
-\contentsline {subsection}{\texttt {euclid.h}\hspace {0.2em}}{10}%
-\contentsline {section}{\numberline {5.4}Primes}{10}%
-\contentsline {section}{\numberline {5.5}Estimates}{10}%
-\contentsline {chapter}{\numberline {6}Combinatorial}{10}%
+\contentsline {section}{\numberline {5.1}Primality}{8}%
+\contentsline {subsection}{\texttt {eratosthenes.h}\hspace {0.2em}}{8}%
+\contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{8}%
+\contentsline {subsection}{\texttt {factor.h}\hspace {0.2em}}{8}%
+\contentsline {section}{\numberline {5.2}Divisibility}{9}%
+\contentsline {subsection}{\texttt {euclid.h}\hspace {0.2em}}{9}%
+\contentsline {section}{\numberline {5.3}Primes}{9}%
+\contentsline {section}{\numberline {5.4}Estimates}{9}%
+\contentsline {chapter}{\numberline {6}Combinatorial}{9}%
 \ttl@stoptoc {chapters@5}
 \ttl@starttoc {chapters@6}
-\contentsline {section}{\numberline {6.1}Partitions and subsets}{10}%
-\contentsline {subsection}{\numberline {6.1.1}Partition function}{10}%
-\contentsline {subsection}{\numberline {6.1.2}Binomials}{10}%
-\contentsline {subsection}{\texttt {binomialModPrime.h}\hspace {0.2em}}{10}%
-\contentsline {section}{\numberline {6.2}General purpose numbers}{10}%
-\contentsline {subsection}{\numberline {6.2.1}Stirling numbers of the first kind}{10}%
-\contentsline {subsection}{\numberline {6.2.2}Eulerian numbers}{10}%
-\contentsline {subsection}{\numberline {6.2.3}Stirling numbers of the second kind}{10}%
-\contentsline {subsection}{\numberline {6.2.4}Bell numbers}{10}%
-\contentsline {subsection}{\numberline {6.2.5}Catalan numbers}{10}%
-\contentsline {chapter}{\numberline {7}Others}{10}%
+\contentsline {section}{\numberline {6.1}Partitions and subsets}{9}%
+\contentsline {subsection}{\numberline {6.1.1}Partition function}{9}%
+\contentsline {subsection}{\numberline {6.1.2}Binomials}{9}%
+\contentsline {subsection}{\texttt {binomialModPrime.h}\hspace {0.2em}}{9}%
+\contentsline {section}{\numberline {6.2}General purpose numbers}{9}%
+\contentsline {subsection}{\numberline {6.2.1}Stirling numbers of the first kind}{9}%
+\contentsline {subsection}{\numberline {6.2.2}Eulerian numbers}{9}%
+\contentsline {subsection}{\numberline {6.2.3}Stirling numbers of the second kind}{9}%
+\contentsline {subsection}{\numberline {6.2.4}Bell numbers}{9}%
+\contentsline {subsection}{\numberline {6.2.5}Catalan numbers}{9}%
+\contentsline {chapter}{\numberline {7}Others}{9}%
 \ttl@stoptoc {chapters@6}
 \ttl@starttoc {chapters@7}
-\contentsline {section}{\texttt {MergeIntervals.java}\hspace {0.2em}}{10}%
-\contentsline {section}{\texttt {Skyline.java}\hspace {0.2em}}{11}%
+\contentsline {section}{\texttt {MergeIntervals.java}\hspace {0.2em}}{9}%
+\contentsline {section}{\texttt {Skyline.java}\hspace {0.2em}}{10}%
+\contentsline {chapter}{\numberline {8}Y si no ac?}{10}%
+\ttl@stoptoc {chapters@7}
+\ttl@starttoc {chapters@8}
+\contentsline {section}{\texttt {troubleshoot.txt}\hspace {0.2em}}{10}%
 \contentsfinish 

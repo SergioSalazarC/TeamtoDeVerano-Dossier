@@ -26,7 +26,4 @@ public class Dikjstra {
                 if(dist[vtop]+disaux >= dist[vaux]) continue;
                 dist[vaux]=dist[vtop]+disaux;
                 pq.offer(new IntPair(dist[vaux],vaux));
-            }
-        }
-    }
-}
+            } } } }

@@ -67,22 +67,6 @@ Law of sines: $\dfrac{\sin\alpha}{a}=\dfrac{\sin\beta}{b}=\dfrac{\sin\gamma}{c}=
 Law of cosines: $a^2=b^2+c^2-2bc\cos\alpha$\\
 Law of tangents: $\dfrac{a+b}{a-b}=\dfrac{\tan\dfrac{\alpha+\beta}{2}}{\tan\dfrac{\alpha-\beta}{2}}$\\
 
-\section{Probability theory}
-Let $X$ be a discrete random variable with probability $p_X(x)$ of assuming the value $x$. It will then have an expected value (mean) $\mu=\mathbb{E}(X)=\sum_xxp_X(x)$ and variance $\sigma^2=V(X)=\mathbb{E}(X^2)-(\mathbb{E}(X))^2=\sum_x(x-\mathbb{E}(X))^2p_X(x)$ where $\sigma$ is the standard deviation. If $X$ is instead continuous it will have a probability density function $f_X(x)$ and the sums above will instead be integrals with $p_X(x)$ replaced by $f_X(x)$.
-
-Expectation is linear:
-\[\mathbb{E}(aX+bY) = a\mathbb{E}(X)+b\mathbb{E}(Y)\]
-For independent $X$ and $Y$, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
-
-\subsection{Discrete distributions}
-
-\subsubsection{Binomial distribution}
-The number of successes in $n$ independent yes/no experiments, each which yields success with probability $p$ is $\textrm{Bin}(n,p),\,n=1,2,\dots,\, 0\leq p\leq1$.
-\[p(k)=\binom{n}{k}p^k(1-p)^{n-k}\]
-\[\mu = np,\,\sigma^2=np(1-p)\]
-$\textrm{Bin}(n,p)$ is approximately $\textrm{Po}(np)$ for small $p$.
-
-\kactlimport{BinomialModPrime.cpp}
 
 \subsubsection{GCD/LCM}
 \kactlimport{GCDLCM.cpp}

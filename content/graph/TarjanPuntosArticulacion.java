@@ -33,9 +33,7 @@ public class TarjanPuntosArticulacion {
             }
             else if(v!=parents[u]){
                 dfs_low[u]=Math.min(dfs_low[u],dfs_num[v]);
-            }
-        }
-    }
+            } } }
 
     public static void main(String[] args){
         dfs_low= new int[n];
