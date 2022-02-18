@@ -9,6 +9,7 @@
  * fact y invfact deben ser calculados como el factorial y el factorial invertido, por ejemplo desde ModInverse.h.
  * Status: Untested
  * Time: O(\log_p n)
+ * FALTA TRADUCIR (N||M) que no se que coño hace :D
  */
 
 static long chooseModP(long n, long m, int p) {
