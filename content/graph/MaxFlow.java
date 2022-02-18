@@ -7,7 +7,7 @@
  * Status: Tested on:
  */
 
-public class Main {
+public class Max_Flow {
 
 	HashMap<Integer,Integer>[] grafo
 
@@ -62,7 +62,7 @@ public class Main {
                 if (rgrafo[aux].get(camino) == 0) {
                     rgrafo[aux].remove(camino);
                 }
-                rgrafo[camino].put(aux,rgrafo[camino].get(aux)+flujo);
+                rgrafo[camino].put(aux,(rgrafo[camino].containsKey(aux) ?  rgrafo[camino].get(aux) : 0)+flujo);
                 camino=parent[camino];
             }
             flujo_maximo+=flujo;

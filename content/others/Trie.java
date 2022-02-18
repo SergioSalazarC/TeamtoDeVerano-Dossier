@@ -1,3 +1,11 @@
+/**
+ * Author: Paco
+ * Date: 2021
+ * License: CC0
+ * Description: Trie
+ * Time: 
+ * Status: Tested on:
+ */
 // Java implementation of search and insert operations
 // on Trie
 public class Trie {
