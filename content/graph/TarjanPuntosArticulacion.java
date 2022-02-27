@@ -30,6 +30,9 @@ public class TarjanPuntosArticulacion {
                 if(parents[u] != -1 && dfs_low[v]>=dfs_num[u]){
                     puntart[u]=t;
                 }
+                if(parents[u] != -1 && dfs_low[v]>dfs_num[u]){
+                    System.out.print("PUENTE"+u+" "+v)
+                }
             }
             else if(v!=parents[u]){
                 dfs_low[u]=Math.min(dfs_low[u],dfs_num[v]);
