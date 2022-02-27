@@ -7,48 +7,55 @@
  * Status: Tested on:
  */
 
-public class TarjanPuntosArticulacion {
-    private static int n; //Vertices
-    private static ArrayList<Integer>[] graf;
-    private static int[] dfs_low, dfs_num, parents,puntart;
-    private static boolean[] visit;
+import java.io.IOException;
 
-    private static void art (int u, int t){
-        visit[u]=true;
-        dfs_num[u]=t;
-        dfs_low[u]=t++;
-        int children=0;
-        for(Integer v: graf[u]){
-            if(!visit[v]){
-                children++;
-                parents[v] = u;
-                art(v,t);
-                dfs_low[u]=Math.min(dfs_low[u], dfs_low[v]);
-                if(parents[u] == -1 && children>1){
-                    puntart[u]=t;
+public class Main{
+
+    private static final int UNVISITED = 0;        
+    
+    //Todos los arrays se inicializan a n=numero de vertices
+    //HashSet puede ser ArrayList
+    private static HashSet<Intpair>[] graf;
+    private static int[] dfs_num, dfs_low, dfs_parent, articulation_vertex;
+    //Inicializar dfs parent con -1.
+    //Para i=0 i<n : si dfs_num == UNVISITED lanzar metodo 
+    private static int dfsNumberCounter, dfsRoot, rootChildren,n,puentes;
+    //Solo para los puentes
+    private static LinkedList<Intpair> lista;   
+    
+
+    private static void articulationPointAndBridge(int u) {
+        dfs_low[u]= dfsNumberCounter;
+        dfs_num[u]= dfsNumberCounter++; // dfs_low[u] <= dfs_num[u]
+        for (Intpair v_w : graf[u]) {
+            if (dfs_num[v_w.x] == UNVISITED) { // a tree edge
+                dfs_parent[v_w.x]= u;
+                if (u == dfsRoot) ++rootChildren;        // special case, root
+
+                articulationPointAndBridge(v_w.x);
+
+                if (dfs_low[v_w.x] >= dfs_num[u]) // for articulation point
+                    articulation_vertex[u]= 1; // store this information first
+                if (dfs_low[v_w.x] > dfs_num[u]){
+                    puentes++;
+                    lista.add(new Intpair(Math.min(v_w.x,u),Math.max(v_w.x,u)));
                 }
-                if(parents[u] != -1 && dfs_low[v]>=dfs_num[u]){
-                    puntart[u]=t;
-                }
-                if(parents[u] != -1 && dfs_low[v]>dfs_num[u]){
-                    System.out.print("PUENTE"+u+" "+v)
-                }
+                dfs_low[u]= Math.min(dfs_low[u], dfs_low[v_w.x]); // update dfs_low[u]
             }
-            else if(v!=parents[u]){
-                dfs_low[u]=Math.min(dfs_low[u],dfs_num[v]);
-            } } }
-
-    public static void main(String[] args){
-        dfs_low= new int[n];
-        dfs_num= new int[n];
-        parents=new int[n];
-        Arrays.fill(parents,-1);
-        puntart=new int[n];
-        visit= new boolean[n];
-        art(0,0);
-        int puntosdearticulacion=0;
-        for(int i=0;i<n;i++){
-            if(puntart[i]!=0) puntosdearticulacion++;
+            else if (v_w.x != dfs_parent[u]) // a back edge and not direct cycle
+                dfs_low[u]= Math.min(dfs_low[u], dfs_num[v_w.x]); // update dfs_low[u]
         }
     }
+
+    public static void main(String[] args) throws IOException {
+        //CONSTRUIR GRAFO
+        for (int u = 0; u < n; ++u){
+            if (dfs_num[u] == UNVISITED) {
+                dfsRoot = u; rootChildren = 0;
+                articulationPointAndBridge(u);
+                articulation_vertex[dfsRoot]= ((rootChildren > 1) ? 1 : 0); // special case
+            }
+        }       
+    }
 }
+
