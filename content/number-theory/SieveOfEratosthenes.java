@@ -1,5 +1,3 @@
-
-
 /**
  * Author: Francisco Tórtola
  * Date: 2022
@@ -9,7 +7,6 @@
  * Status: Tested on:
  */
 
-import java.util.LinkedList;
 public class SieveOfEratosthenes {
     static LinkedList<Integer> sieveOfErastosthenes(int n){
         boolean prime[] = new boolean[n+1];
