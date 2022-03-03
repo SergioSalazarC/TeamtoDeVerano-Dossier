@@ -58,3 +58,5 @@ Evite el vector, el mapa. (use arrays)
 Memoria límite excedida (MLE):
 ¿Cuál es la cantidad máxima de memoria que su algoritmo debería necesitar?
 ¿Está limpiando todas las estructuras de datos entre casos de prueba?
+
+Vida antes que muerte. Fuerza antes que debilidad. Viaje antes que destino.
