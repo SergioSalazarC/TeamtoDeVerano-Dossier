@@ -10,7 +10,7 @@
 public class Dikjstra {
     public static void Dikjstra(int nodos, int inicio){
         PriorityQueue<IntPair> pq = new PriorityQueue<>();
-        pq.offer(new IntPair(0,inicio)); //offer==add
+        pq.offer(new IntPair(inicio,0)); //offer==add
         int[] dist = new int[nodos];
         Arrays.fill(dist,1000000000);
         dist[inicio]=0;
@@ -25,5 +25,5 @@ public class Dikjstra {
                 int vaux=aux.v;
                 if(dist[vtop]+disaux >= dist[vaux]) continue;
                 dist[vaux]=dist[vtop]+disaux;
-                pq.offer(new IntPair(dist[vaux],vaux));
+                pq.offer(new IntPair(vaux,dist[vaux]));
             } } } }

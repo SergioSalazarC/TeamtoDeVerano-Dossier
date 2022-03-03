@@ -1,14 +1,14 @@
 \BOOKMARK [0][-]{chapter.1}{Graph}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Mathematics}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Equations}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Recurrences}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Trigonometry}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Geometry}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.5}{Derivatives/Integrals}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.6}{Sums}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.2}{Matematicas}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Ecuaciones}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Recurrencias}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Trigonometria}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Geometria}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Derivadas e Integrales}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.6}{Sumas}{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.7}{Series}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.8}{Probability theory}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.9}{Markov chains}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.8}{Probabilidad}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.9}{Cadenas de Markov}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{Data structures}{}% 12
 \BOOKMARK [0][-]{chapter.4}{Numerical}{}% 13
 \BOOKMARK [1][-]{section.4.1}{Polynomials and recurrences}{chapter.4}% 14
@@ -34,5 +34,6 @@
 \BOOKMARK [1][-]{section.7.3}{Polygons}{chapter.7}% 34
 \BOOKMARK [1][-]{section.7.4}{Misc. Point Set Problems}{chapter.7}% 35
 \BOOKMARK [1][-]{section.7.5}{3D}{chapter.7}% 36
-\BOOKMARK [0][-]{chapter.8}{Others}{}% 37
-\BOOKMARK [0][-]{chapter.9}{Y si no ac?}{}% 38
+\BOOKMARK [0][-]{chapter.8}{Strings}{}% 37
+\BOOKMARK [0][-]{chapter.9}{Others}{}% 38
+\BOOKMARK [0][-]{chapter.10}{Y si no ac?}{}% 39

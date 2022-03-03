@@ -1,27 +1,27 @@
 % Written by Anders Sjoqvist and Ulf Lundstrom, 2009
 % The main sources are: tinyKACTL, Beta and Wikipedia
 
-\chapter{Mathematics}
+\chapter{Matematicas}
 
-\section{Equations}
+\section{Ecuaciones}
 \[ax^2+bx+c=0 \Rightarrow x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
 
-The extremum is given by $x = -b/2a$.
+Es extremos es dado por $x = -b/2a$.
 
 \[\begin{aligned}ax+by=e\\cx+dy=f\end{aligned}
 \Rightarrow
 \begin{aligned}x=\dfrac{ed-bf}{ad-bc}\\y=\dfrac{af-ec}{ad-bc}\end{aligned}\]
 
-In general, given an equation $Ax = b$, the solution to a variable $x_i$ is given by
+En general dado un sistema $Ax = b$, la solucion de una variable $x_i$ es dada por
 \[x_i = \frac{\det A_i'}{\det A} \]
-where $A_i'$ is $A$ with the $i$'th column replaced by $b$.
+donde $A_i'$ es $A$ con la $i$-esima columna remplazada por $b$.
 
-\section{Recurrences}
-If $a_n = c_1 a_{n-1} + \dots + c_k a_{n-k}$, and $r_1, \dots, r_k$ are distinct roots of $x^k + c_1 x^{k-1} + \dots + c_k$, there are $d_1, \dots, d_k$ s.t.
+\section{Recurrencias}
+Si $a_n = c_1 a_{n-1} + \dots + c_k a_{n-k}$, y $r_1, \dots, r_k$ son raices distintas de $x^k + c_1 x^{k-1} + \dots + c_k$, hay $d_1, \dots, d_k$ tal que
 \[a_n = d_1r_1^n + \dots + d_kr_k^n. \]
-Non-distinct roots $r$ become polynomial factors, e.g. $a_n = (d_1n + d_2)r^n$.
+Raices diferentes $r$ se convierten en factores polinomiales, e.g. $a_n = (d_1n + d_2)r^n$.
 
-\section{Trigonometry}
+\section{Trigonometria}
 \begin{align*}
 \sin(v+w)&{}=\sin v\cos w+\cos v\sin w\\
 \cos(v+w)&{}=\cos v\cos w-\sin v\sin w\\
@@ -32,47 +32,46 @@ Non-distinct roots $r$ become polynomial factors, e.g. $a_n = (d_1n + d_2)r^n$.
 \cos v+\cos w&{}=2\cos\dfrac{v+w}{2}\cos\dfrac{v-w}{2}
 \end{align*}
 \[ (V+W)\tan(v-w)/2{}=(V-W)\tan(v+w)/2 \]
-where $V, W$ are lengths of sides opposite angles $v, w$.
+donde $V, W$ son longitudes de angulos de lados opuestos $v, w$.
 \begin{align*}
 	a\cos x+b\sin x&=r\cos(x-\phi)\\
 	a\sin x+b\cos x&=r\sin(x+\phi)
 \end{align*}
-where $r=\sqrt{a^2+b^2}, \phi=\operatorname{atan2}(b,a)$.
+donde $r=\sqrt{a^2+b^2}, \phi=\operatorname{atan2}(b,a)$.
 
-\section{Geometry}
+\section{Geometria}
 
 \subsection{Triangles}
-Side lengths: $a,b,c$\\
-Semiperimeter: $p=\dfrac{a+b+c}{2}$\\
+Longitudes de los lados: $a,b,c$\\
+Semiperimetro: $p=\dfrac{a+b+c}{2}$\\
 Area: $A=\sqrt{p(p-a)(p-b)(p-c)}$\\
-Circumradius: $R=\dfrac{abc}{4A}$\\
-Inradius: $r=\dfrac{A}{p}$\\
-Length of median (divides triangle into two equal-area triangles): $m_a=\tfrac{1}{2}\sqrt{2b^2+2c^2-a^2}$\\
-Length of bisector (divides angles in two): $s_a=\sqrt{bc\left[1-\left(\dfrac{a}{b+c}\right)^2\right]}$\\
-Law of sines: $\dfrac{\sin\alpha}{a}=\dfrac{\sin\beta}{b}=\dfrac{\sin\gamma}{c}=\dfrac{1}{2R}$\\
-Law of cosines: $a^2=b^2+c^2-2bc\cos\alpha$\\
-Law of tangents: $\dfrac{a+b}{a-b}=\dfrac{\tan\dfrac{\alpha+\beta}{2}}{\tan\dfrac{\alpha-\beta}{2}}$\\
+Circumradio: $R=\dfrac{abc}{4A}$\\
+Inradio: $r=\dfrac{A}{p}$\\
+Longitud de la mediana (Divide el triangulo en dos triangulos con el mismo area): $m_a=\tfrac{1}{2}\sqrt{2b^2+2c^2-a^2}$\\
+Longitud de la bisectriz (Divide un angulo en dos): $s_a=\sqrt{bc\left[1-\left(\dfrac{a}{b+c}\right)^2\right]}$\\
+Teorema del seno: $\dfrac{\sin\alpha}{a}=\dfrac{\sin\beta}{b}=\dfrac{\sin\gamma}{c}=\dfrac{1}{2R}$\\
+Teorema del coseno: $a^2=b^2+c^2-2bc\cos\alpha$\\
+Teorema de la tangente: $\dfrac{a+b}{a-b}=\dfrac{\tan\dfrac{\alpha+\beta}{2}}{\tan\dfrac{\alpha-\beta}{2}}$\\
 
-\subsection{Quadrilaterals}
-With side lengths $a,b,c,d$, diagonals $e, f$, diagonals angle $\theta$, area $A$ and
-magic flux $F=b^2+d^2-a^2-c^2$:
+\subsection{Cuadrilateros}
+Con lados de longitud $a,b,c,d$, diagonales $e, f$, angulos de la diagonal $\theta$, area $A$ y "flujo magico" $F=b^2+d^2-a^2-c^2$:
 
 \[ 4A = 2ef \cdot \sin\theta = F\tan\theta = \sqrt{4e^2f^2-F^2} \]
 
- For cyclic quadrilaterals the sum of opposite angles is $180^\circ$,
-$ef = ac + bd$, and $A = \sqrt{(p-a)(p-b)(p-c)(p-d)}$.
+Para cuadrilateros ciclicos la suma de los angulos opuestos es $180^\circ$,
+$ef = ac + bd$, y $A = \sqrt{(p-a)(p-b)(p-c)(p-d)}$.
 
-\subsection{Spherical coordinates}
+\subsection{Coordenadas esfericas}
 \begin{center}
 \includegraphics[width=25mm]{content/math/sphericalCoordinates}
 \end{center}
 \[\begin{array}{cc}
 x = r\sin\theta\cos\phi & r = \sqrt{x^2+y^2+z^2}\\
-y = r\sin\theta\sin\phi & \theta = \textrm{acos}(z/\sqrt{x^2+y^2+z^2})\\
-z = r\cos\theta & \phi = \textrm{atan2}(y,x)
+y = r\sin\theta\sin\phi & \theta = \textrm{arccos}(z/\sqrt{x^2+y^2+z^2})\\
+z = r\cos\theta & \phi = \textrm{arctan}(y/x)
 \end{array}\]
 
-\section{Derivatives/Integrals}
+\section{Derivadas e Integrales}
 \begin{align*}
 	\dfrac{d}{dx}\arcsin x = \dfrac{1}{\sqrt{1-x^2}} &&& \dfrac{d}{dx}\arccos x = -\dfrac{1}{\sqrt{1-x^2}} \\
 	\dfrac{d}{dx}\tan x = 1+\tan^2 x &&& \dfrac{d}{dx}\arctan x = \dfrac{1}{1+x^2} \\
@@ -80,10 +79,10 @@ z = r\cos\theta & \phi = \textrm{atan2}(y,x)
 	\int e^{-x^2} = \frac{\sqrt \pi}{2} \text{erf}(x) &&& \int xe^{ax}dx = \frac{e^{ax}}{a^2}(ax-1)
 \end{align*}
 
-Integration by parts:
+Integracion por partes:
 \[\int_a^bf(x)g(x)dx = [F(x)g(x)]_a^b-\int_a^bF(x)g'(x)dx\]
 
-\section{Sums}
+\section{Sumas}
 \[ c^a + c^{a+1} + \dots + c^{b} = \frac{c^{b+1} - c^a}{c-1}, c \neq 1 \]
 \begin{align*}
 	1 + 2 + 3 + \dots + n &= \frac{n(n+1)}{2} \\
@@ -99,35 +98,35 @@ $$\sqrt{1+x} = 1+\frac{x}{2}-\frac{x^2}{8}+\frac{2x^3}{32}-\frac{5x^4}{128}+\dot
 $$\sin x = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\dots,\,(-\infty<x<\infty)$$
 $$\cos x = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots,\,(-\infty<x<\infty)$$
 
-\section{Probability theory}
-Let $X$ be a discrete random variable with probability $p_X(x)$ of assuming the value $x$. It will then have an expected value (mean) $\mu=\mathbb{E}(X)=\sum_xxp_X(x)$ and variance $\sigma^2=V(X)=\mathbb{E}(X^2)-(\mathbb{E}(X))^2=\sum_x(x-\mathbb{E}(X))^2p_X(x)$ where $\sigma$ is the standard deviation. If $X$ is instead continuous it will have a probability density function $f_X(x)$ and the sums above will instead be integrals with $p_X(x)$ replaced by $f_X(x)$.
+\section{Probabilidad}
+Sea $X$ una variable aleatoria con probabilidad $p_X(x)$ de tomar el valor $x$. Su esperanza es dada por $\mu=\mathbb{E}(X)=\sum_xxp_X(x)$ y varianza $\sigma^2=V(X)=\mathbb{E}(X^2)-(\mathbb{E}(X))^2=\sum_x(x-\mathbb{E}(X))^2p_X(x)$ donde $\sigma$ es la desviacion estandar. Si $X$ es una varibale contina la funcion de densidad es $f_X(x)$ y la suma de probabilidades con $p_X(x)$ es remplazada por la integral con $f_X(x)$.
 
-Expectation is linear:
+La esperanza es lineal:
 \[\mathbb{E}(aX+bY) = a\mathbb{E}(X)+b\mathbb{E}(Y)\]
-For independent $X$ and $Y$, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
+Para $X$ e $Y$ independientes, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
 
-\subsection{Discrete distributions}
+\subsection{Distribuciones discretas}
 
 \subsubsection{Binomial distribution}
-The number of successes in $n$ independent yes/no experiments, each which yields success with probability $p$ is $\textrm{Bin}(n,p),\,n=1,2,\dots,\, 0\leq p\leq1$.
+El numero de aciertos $n$ independientes en experimentos si/no , donde cada acierto tiene una probabilidad de $p$ es $\textrm{Bin}(n,p),\,n=1,2,\dots,\, 0\leq p\leq1$.
 \[p(k)=\binom{n}{k}p^k(1-p)^{n-k}\]
 \[\mu = np,\,\sigma^2=np(1-p)\]
-$\textrm{Bin}(n,p)$ is approximately $\textrm{Po}(np)$ for small $p$.
+$\textrm{Bin}(n,p)$ es aproximadamente $\textrm{Po}(np)$ para pequeños $p$.
 
-\subsubsection{First success distribution}
-The number of trials needed to get the first success in independent yes/no experiments, each wich yields success with probability $p$ is $\textrm{Fs}(p),\,0\leq p\leq1$.
+\subsubsection{DIstribucion del primer acierto (Geometrica)}
+El numero de intentos necesarios hasta el primer acierto en experimentos de si/no, donde cada acierto tiene una probabilidad de $p$ es $\textrm{Fs}(p),\,0\leq p\leq1$.
 \[p(k)=p(1-p)^{k-1},\,k=1,2,\dots\]
 \[\mu = \frac1p,\,\sigma^2=\frac{1-p}{p^2}\]
 
-\subsubsection{Poisson distribution}
-The number of events occurring in a fixed period of time $t$ if these events occur with a known average rate $\kappa$ and independently of the time since the last event is $\textrm{Po}(\lambda),\,\lambda=t\kappa$.
+\subsubsection{DIstribucion de Poisson}
+El numero de eventos ocurridos en un tiempo determinado $t$ si esos eventos ocurren con una media de $\kappa$ independientemente del tiempo desde el ultimo suceso es $\textrm{Po}(\lambda),\,\lambda=t\kappa$.
 \[p(k)=e^{-\lambda}\frac{\lambda^k}{k!}, k=0,1,2,\dots\]
 \[\mu=\lambda,\,\sigma^2=\lambda\]
 
-\subsection{Continuous distributions}
+\subsection{Distribuciones continuas}
 
-\subsubsection{Uniform distribution}
-If the probability density function is constant between $a$ and $b$ and 0 elsewhere it is $\textrm{U}(a,b),\,a<b$.
+\subsubsection{Distribucion uniforma}
+Si la funcion de densidad es constante entre $a$ y $b$ y es 0 fuera de  $\textrm{U}(a,b),\,a<b$.
 \[f(x) = \left\{
 \begin{array}{cl}
 \frac{1}{b-a} & a<x<b\\
@@ -135,8 +134,8 @@ If the probability density function is constant between $a$ and $b$ and 0 elsewh
 \end{array}\right.\]
 \[\mu=\frac{a+b}{2},\,\sigma^2=\frac{(b-a)^2}{12}\]
 
-\subsubsection{Exponential distribution}
-The time between events in a Poisson process is $\textrm{Exp}(\lambda),\,\lambda>0$.
+\subsubsection{Distribucion exponencial}
+El tiempo entre eventos en un proceso de Poisson es $\textrm{Exp}(\lambda),\,\lambda>0$.
 \[f(x) = \left\{
 \begin{array}{cl}
 \lambda e^{-\lambda x} & x\geq0\\
@@ -144,33 +143,33 @@ The time between events in a Poisson process is $\textrm{Exp}(\lambda),\,\lambda
 \end{array}\right.\]
 \[\mu=\frac{1}{\lambda},\,\sigma^2=\frac{1}{\lambda^2}\]
 
-\subsubsection{Normal distribution}
-Most real random values with mean $\mu$ and variance $\sigma^2$ are well described by $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
+\subsubsection{Distribucion normal}
+Mucho de los sucesos aleatorios reales con media $\mu$ y varianza $\sigma^2$ son bien descritos por $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
 \[ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \]
 If $X_1 \sim \mathcal{N}(\mu_1,\sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2,\sigma_2^2)$ then
 \[ aX_1 + bX_2 + c \sim \mathcal{N}(\mu_1+\mu_2+c,a^2\sigma_1^2+b^2\sigma_2^2) \]
 
-\section{Markov chains}
-A \emph{Markov chain} is a discrete random process with the property that the next state depends only on the current state.
-Let $X_1,X_2,\ldots$ be a sequence of random variables generated by the Markov process.
-Then there is a transition matrix $\mathbf{P} = (p_{ij})$, with $p_{ij} = \Pr(X_n = i | X_{n-1} = j)$,
-and $\mathbf{p}^{(n)} = \mathbf P^n \mathbf p^{(0)}$ is the probability distribution for $X_n$ (i.e., $p^{(n)}_i = \Pr(X_n = i)$),
-where $\mathbf{p}^{(0)}$ is the initial distribution.
+\section{Cadenas de Markov}
+Una \emph{Cadena de Markov} es un proceso aleatorio discreto con la propiedad de que el siguiente estado depende unicamente del estado actual.
+Sean $X_1,X_2,\ldots$ unas secuencia de variables aleatorias generadas por un proceso de Markov.
+Entonces hay una matriz de transicion $\mathbf{P} = (p_{ij})$, con $p_{ij} = \Pr(X_n = i | X_{n-1} = j)$,
+y $\mathbf{p}^{(n)} = \mathbf P^n \mathbf p^{(0)}$ es la  distribucion de probabilidad para  $X_n$ (i.e., $p^{(n)}_i = \Pr(X_n = i)$),
+donde $\mathbf{p}^{(0)}$ es la distribucion incial.
 
-% \subsubsection{Stationary distribution}
-$\mathbf{\pi}$ is a stationary distribution if $\mathbf{\pi} = \mathbf{\pi P}$.
-If the Markov chain is \emph{irreducible} (it is possible to get to any state from any state),
-then $\pi_i = \frac{1}{\mathbb{E}(T_i)}$ where $\mathbb{E}(T_i)$  is the expected time between two visits in state $i$.
-$\pi_j/\pi_i$ is the expected number of visits in state $j$ between two visits in state $i$.
+\subsubsection{Distribucion estacionaria}
+$\mathbf{\pi}$ es una distribucion estacionaria si $\mathbf{\pi} = \mathbf{\pi P}$.
+Si la cadena de Markov es \emph{irreducible} (es posible ir de cualquier estado a otro),
+entonces $\pi_i = \frac{1}{\mathbb{E}(T_i)}$ donde $\mathbb{E}(T_i)$  es el tiempo esperado entre dos visitas en el estado $i$.
+$\pi_j/\pi_i$ es el numero experado de visitas en el estado $j$ entre dos visitas del estado $i$.
 
-For a connected, undirected and non-bipartite graph, where the transition probability is uniform among all neighbors, $\pi_i$ is proportional to node $i$'s degree.
+Para un grafo conexo, no dirigido and no-bipartito, donde la la probabilidad de transicion es uniforme entre todos los vecinos, $\pi_i$ es proporcional al grado del nodo $i$.
 
-% \subsubsection{Ergodicity}
-A Markov chain is \emph{ergodic} if the asymptotic distribution is independent of the initial distribution.
-A finite Markov chain is ergodic iff it is irreducible and \emph{aperiodic} (i.e., the gcd of cycle lengths is 1).
+\subsubsection{Ergodicidad}
+Una cadena de Markov es \emph{ergodica} if the asymptotic si la distribucion asintotica es independiente del estado inicial de la distribucion.
+Una cadena de Markov finita es ergodica si es irreducible y \emph{aperiodica} (i.e., el mcd de la longitud de los ciclos es 1).
 $\lim_{k\rightarrow\infty}\mathbf{P}^k = \mathbf{1}\pi$.
 
-% \subsubsection{Absorption}
-A Markov chain is an A-chain if the states can be partitioned into two sets $\mathbf{A}$ and $\mathbf{G}$, such that all states in $\mathbf{A}$ are absorbing ($p_{ii}=1$), and all states in $\mathbf{G}$ leads to an absorbing state in $\mathbf{A}$.
-The probability for absorption in state $i\in\mathbf{A}$, when the initial state is $j$, is $a_{ij} = p_{ij}+\sum_{k\in\mathbf{G}} a_{ik}p_{kj}$.
-The expected time until absorption, when the initial state is $i$, is $t_i = 1+\sum_{k\in\mathbf{G}}p_{ki}t_k$.
+\subsubsection{Absorvencia}
+Una cadena de Markov es una A-cadena si los estados pueden ser particionados en dos conjuntos $\mathbf{A}$ y $\mathbf{G}$, tal que todos los estados en $\mathbf{A}$ son absorventes ($p_{ii}=1$), y tdos los estados en $\mathbf{G}$ acaban en un estado absorvente de$\mathbf{A}$.
+La probabilidad para absorver en un estado $i\in\mathbf{A}$, donde el estado inicial es $j$, es $a_{ij} = p_{ij}+\sum_{k\in\mathbf{G}} a_{ik}p_{kj}$.
+El tiempo esperado hasta la absorcion, donde el estado inicial es $i$, es $t_i = 1+\sum_{k\in\mathbf{G}}p_{ki}t_k$.
