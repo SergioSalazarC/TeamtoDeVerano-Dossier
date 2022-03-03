@@ -89,8 +89,8 @@
 \contentsline {section}{\numberline {5.2}Primality}{10}{section.5.2}%
 \contentsline {subsection}{\texttt {SieveOfEratosthenes.java}\hspace {0.2em}}{10}{section.5.2}%
 \contentsline {subsection}{\texttt {SieveOfErastosthenesFast.java}\hspace {0.2em}}{10}{lstnumber.5.8.16}%
-\contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{11}{lstnumber.5.9.37}%
-\contentsline {subsection}{\texttt {Factor.h}\hspace {0.2em}}{11}{lstnumber.5.10.12}%
+\contentsline {subsection}{\texttt {MillerRabin.java}\hspace {0.2em}}{11}{lstnumber.5.9.37}%
+\contentsline {subsection}{\texttt {Factor.h}\hspace {0.2em}}{11}{lstnumber.5.10.21}%
 \contentsline {section}{\numberline {5.3}Divisibility}{11}{section.5.3}%
 \contentsline {subsection}{\texttt {Euclid.java}\hspace {0.2em}}{11}{section.5.3}%
 \contentsline {subsection}{\texttt {CRT.java}\hspace {0.2em}}{11}{lstnumber.5.12.11}%
@@ -99,7 +99,7 @@
 \contentsline {section}{\numberline {5.4}Fractions}{11}{section.5.4}%
 \contentsline {subsection}{\texttt {ContinuedFractions.h}\hspace {0.2em}}{11}{section.5.4}%
 \contentsline {subsection}{\texttt {FracBinarySearch.h}\hspace {0.2em}}{11}{lstnumber.5.15.21}%
-\contentsline {section}{\numberline {5.5}Ternas Pitagoricas}{11}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Ternas Pitagoricas}{12}{section.5.5}%
 \contentsline {section}{\numberline {5.6}Primos}{12}{section.5.6}%
 \contentsline {section}{\numberline {5.7}Estimates}{12}{section.5.7}%
 \contentsline {section}{\numberline {5.8}Mobius Function}{12}{section.5.8}%
@@ -121,8 +121,8 @@
 \contentsline {subsection}{\numberline {6.3.1}Bernoulli numbers}{12}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Stirling numbers of the first kind}{12}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Eulerian numbers}{12}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{12}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Bell numbers}{12}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{13}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Bell numbers}{13}{subsection.6.3.5}%
 \contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{13}{subsection.6.3.6}%
 \contentsline {subsection}{\numberline {6.3.7}Catalan numbers}{13}{subsection.6.3.7}%
 \contentsline {chapter}{\numberline {7}Geometry}{13}{chapter.7}%
@@ -137,7 +137,7 @@
 \contentsline {subsection}{\texttt {sideOf.h}\hspace {0.2em}}{13}{lstnumber.7.5.8}%
 \contentsline {subsection}{\texttt {OnSegment.h}\hspace {0.2em}}{13}{lstnumber.7.6.9}%
 \contentsline {subsection}{\texttt {linearTransformation.h}\hspace {0.2em}}{13}{lstnumber.7.7.3}%
-\contentsline {subsection}{\texttt {Angle.h}\hspace {0.2em}}{13}{lstnumber.7.8.6}%
+\contentsline {subsection}{\texttt {Angle.h}\hspace {0.2em}}{14}{lstnumber.7.8.6}%
 \contentsline {section}{\numberline {7.2}Circles}{14}{section.7.2}%
 \contentsline {subsection}{\texttt {CircleIntersection.h}\hspace {0.2em}}{14}{section.7.2}%
 \contentsline {subsection}{\texttt {CircleTangents.h}\hspace {0.2em}}{14}{lstnumber.7.10.11}%
@@ -148,7 +148,7 @@
 \contentsline {subsection}{\texttt {InsidePolygon.h}\hspace {0.2em}}{14}{section.7.3}%
 \contentsline {subsection}{\texttt {PolygonArea.h}\hspace {0.2em}}{14}{lstnumber.7.15.11}%
 \contentsline {subsection}{\texttt {PolygonCenter.h}\hspace {0.2em}}{14}{lstnumber.7.16.6}%
-\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{14}{lstnumber.7.17.9}%
+\contentsline {subsection}{\texttt {PolygonCut.h}\hspace {0.2em}}{15}{lstnumber.7.17.9}%
 \contentsline {subsection}{\texttt {ConvexHull.h}\hspace {0.2em}}{15}{lstnumber.7.18.13}%
 \contentsline {subsection}{\texttt {HullDiameter.h}\hspace {0.2em}}{15}{lstnumber.7.19.13}%
 \contentsline {subsection}{\texttt {PointInsideHull.h}\hspace {0.2em}}{15}{lstnumber.7.20.12}%
@@ -161,7 +161,7 @@
 \contentsline {subsection}{\texttt {PolyhedronVolume.h}\hspace {0.2em}}{16}{section.7.5}%
 \contentsline {subsection}{\texttt {Point3D.h}\hspace {0.2em}}{16}{lstnumber.7.26.6}%
 \contentsline {subsection}{\texttt {3dHull.h}\hspace {0.2em}}{16}{lstnumber.7.27.32}%
-\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{16}{lstnumber.7.28.49}%
+\contentsline {subsection}{\texttt {sphericalDistance.h}\hspace {0.2em}}{17}{lstnumber.7.28.49}%
 \contentsline {chapter}{\numberline {8}Others}{17}{chapter.8}%
 \ttl@stoptoc {chapters@7}
 \ttl@starttoc {chapters@8}
