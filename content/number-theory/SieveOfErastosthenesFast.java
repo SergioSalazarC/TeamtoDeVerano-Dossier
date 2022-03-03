@@ -9,8 +9,8 @@
 import java.util.Vector;
 class SieveOfErastosthenesFast {
     static final int MAX_SIZE = 1000001;
-    // SPF: guarda el factor primo más pequeño de un número
-    //prime: vector con todos los números primos
+    // SPF: guarda el factor primo mas pequeno de un numero
+    //prime: vector con todos los numeros primos
     static Vector<Boolean>isprime = new Vector<>(MAX_SIZE);
     static Vector<Integer>prime = new Vector<>();
     static Vector<Integer>SPF = new Vector<>(MAX_SIZE);

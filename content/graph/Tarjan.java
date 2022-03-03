@@ -2,7 +2,7 @@
  * Author: Sergio
  * Date: 2021
  * License: CC0
- * Description: Encontrar los puntos de articulacion de un grafo. (Puntos que al ser eliminados desconectan G)
+ * Description: Encontrar los puntos de articulacion, puentes o componentes biconexas de un grafo
  * Time: O(E + V)
  * Status: Tested on:
  */
@@ -22,9 +22,12 @@ public class Main{
     private static int dfsNumberCounter, dfsRoot, rootChildren,n,puentes;
     //Solo para los puentes
     private static LinkedList<Intpair> lista;   
-    
+    //Solo Componente biconexas
+    //private static LinkedList<HashSet<Integer>> compBiconexas = new LinkedList();
+    //HashSet<Integer> componenteBiconexa = new HashSet();
 
     private static void articulationPointAndBridge(int u) {
+        //componenteBiconexa.add(u):
         dfs_low[u]= dfsNumberCounter;
         dfs_num[u]= dfsNumberCounter++; // dfs_low[u] <= dfs_num[u]
         for (Intpair v_w : graf[u]) {
@@ -35,7 +38,9 @@ public class Main{
                 articulationPointAndBridge(v_w.x);
 
                 if (dfs_low[v_w.x] >= dfs_num[u]) // for articulation point
-                    articulation_vertex[u]= 1; // store this information first
+                    articulation_vertex[u]= 1;
+                    //compBiconexas.add(componenteBiconexa);
+                    //componenteBiconexa=new HashSet<>();
                 if (dfs_low[v_w.x] > dfs_num[u]){
                     puentes++;
                     lista.add(new Intpair(Math.min(v_w.x,u),Math.max(v_w.x,u)));
@@ -45,6 +50,8 @@ public class Main{
             else if (v_w.x != dfs_parent[u]) // a back edge and not direct cycle
                 dfs_low[u]= Math.min(dfs_low[u], dfs_num[v_w.x]); // update dfs_low[u]
         }
+        //compBiconexas.add(componenteBiconexa);
+        //componenteBiconexa=new HashSet();
     }
 
     public static void main(String[] args) throws IOException {
