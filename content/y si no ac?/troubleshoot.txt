@@ -1,0 +1,60 @@
+Pre-envío:
+Escriba algunos casos de prueba simples, si la muestra no es suficiente.
+¿Sabes los límites? Si es así, genere casos máximos.
+¿Está bien el uso de la memoria?
+¿Podría haber overflow?
+Asegúrese de enviar el archivo correcto.
+
+Respuesta incorrecta: WA
+USA LONG
+¡Imprime tu solución! Imprima también la salida de debug.
+¿Está limpiando todas las estructuras de datos entre casos de prueba?
+¿Puede su algoritmo manejar todo el rango de entrada?
+Vuelva a leer el enunciado completo del problema.
+¿Maneja todos los casos límite correctamente?
+¿Has entendido correctamente el problema?
+¿Código copiado incorrecto?
+¿Alguna variable no inicializada?
+¿Algún desbordamiento?
+¿variables con el mismo nombre?
+¿Recursividad correcta?
+¿Confundir N y M, i y j, etc.?
+¿Estás seguro de que tu algoritmo funciona?
+¿En qué casos especiales no has pensado?
+¿Estás seguro de que las funciones STL (Libreria estándar) que usas funcionan como crees?
+Agregue algunas respuestas a las preguntas, tal vez vuelva a enviar.
+Cree algunos casos de prueba para ejecutar su algoritmo.
+Ir a través del algoritmo para un caso simple.
+Revisa esta lista nuevamente.
+Explique su algoritmo a un compañero de equipo.
+Pídele al compañero de equipo que mire tu código.
+Salga a dar un pequeño paseo, p. al baño.
+¿Es correcto su formato de salida? (incluyendo espacios en blanco)
+Vuelva a escribir su solución desde el principio o deje que un compañero de equipo lo haga.
+
+
+Error de ejecución (RTE):
+USA LONG
+¿Ha probado todos los casos límites localmente?
+¿Alguna variable no inicializada?
+¿Está leyendo o escribiendo fuera del rango de cualquier vector?
+¿Alguna llamada que pueda fallar?
+¿Alguna posible división por 0? (módulo 0 por ejemplo)
+¿Alguna recursión infinita posible?
+¿Iteradores invalidos?
+¿Estás usando demasiada memoria?
+Depuración con reenvíos (por ejemplo, señales reasignadas, consulte Varios).
+
+
+Tiempo límite (TLE):
+¿Tienes posibles bucles infinitos?
+¿Cuál es la complejidad de su algoritmo?
+¿Estás copiando muchos datos innecesarios? (Referencias)
+¿Qué tan grande es la entrada y la salida? (considere buffered reader)
+Evite el vector, el mapa. (use arrays)
+¿Usas vectores? Cambiar a array.
+¿Qué piensan tus compañeros de equipo sobre tu algoritmo?
+
+Memoria límite excedida (MLE):
+¿Cuál es la cantidad máxima de memoria que su algoritmo debería necesitar?
+¿Está limpiando todas las estructuras de datos entre casos de prueba?
