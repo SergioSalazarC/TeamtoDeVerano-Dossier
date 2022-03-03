@@ -92,15 +92,15 @@
 \contentsline {subsection}{\texttt {MillerRabin.h}\hspace {0.2em}}{11}{lstnumber.5.9.37}%
 \contentsline {subsection}{\texttt {Factor.h}\hspace {0.2em}}{11}{lstnumber.5.10.12}%
 \contentsline {section}{\numberline {5.3}Divisibility}{11}{section.5.3}%
-\contentsline {subsection}{\texttt {euclid.h}\hspace {0.2em}}{11}{section.5.3}%
-\contentsline {subsection}{\texttt {CRT.h}\hspace {0.2em}}{11}{lstnumber.5.12.5}%
+\contentsline {subsection}{\texttt {Euclid.java}\hspace {0.2em}}{11}{section.5.3}%
+\contentsline {subsection}{\texttt {CRT.java}\hspace {0.2em}}{11}{lstnumber.5.12.11}%
 \contentsline {subsection}{\numberline {5.3.1}Identidad de Bezut}{11}{subsection.5.3.1}%
 \contentsline {subsection}{\texttt {phiFunction.h}\hspace {0.2em}}{11}{subsection.5.3.1}%
 \contentsline {section}{\numberline {5.4}Fractions}{11}{section.5.4}%
 \contentsline {subsection}{\texttt {ContinuedFractions.h}\hspace {0.2em}}{11}{section.5.4}%
 \contentsline {subsection}{\texttt {FracBinarySearch.h}\hspace {0.2em}}{11}{lstnumber.5.15.21}%
 \contentsline {section}{\numberline {5.5}Ternas Pitagoricas}{11}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Primos}{11}{section.5.6}%
+\contentsline {section}{\numberline {5.6}Primos}{12}{section.5.6}%
 \contentsline {section}{\numberline {5.7}Estimates}{12}{section.5.7}%
 \contentsline {section}{\numberline {5.8}Mobius Function}{12}{section.5.8}%
 \contentsline {chapter}{\numberline {6}Combinatorial}{12}{chapter.6}%
@@ -123,7 +123,7 @@
 \contentsline {subsection}{\numberline {6.3.3}Eulerian numbers}{12}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}Stirling numbers of the second kind}{12}{subsection.6.3.4}%
 \contentsline {subsection}{\numberline {6.3.5}Bell numbers}{12}{subsection.6.3.5}%
-\contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{12}{subsection.6.3.6}%
+\contentsline {subsection}{\numberline {6.3.6}Labeled unrooted trees}{13}{subsection.6.3.6}%
 \contentsline {subsection}{\numberline {6.3.7}Catalan numbers}{13}{subsection.6.3.7}%
 \contentsline {chapter}{\numberline {7}Geometry}{13}{chapter.7}%
 \ttl@stoptoc {chapters@6}
