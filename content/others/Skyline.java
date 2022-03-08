@@ -10,22 +10,18 @@ public class Skyline {
     public static List<IntPair> getSkyline(long[][] buildings) {
         int n = buildings.length;
         List<IntPair> salida = new ArrayList<IntPair>();
-
         if (n == 0) return salida;
         if (n == 1) {
             long xStart = buildings[0][0];
             long xEnd = buildings[0][1];
             long y = buildings[0][2];
-
             salida.add(new IntPair(xStart,y));
             salida.add(new IntPair(xEnd,0));
             return salida;
         }
-
         List<IntPair> leftSkyline, rightSkyline;
         leftSkyline = getSkyline(Arrays.copyOfRange(buildings, 0, n / 2));
         rightSkyline = getSkyline(Arrays.copyOfRange(buildings, n / 2, n));
-
         return mergeSkylines(leftSkyline, rightSkyline);
     }
 
@@ -76,9 +72,7 @@ public class Skyline {
             if (currY != y) {
                 updateOutput(output, x, y);
                 currY = y;
-            }
-        }
-    }
+            }  }  }
 
     public static void main(String[] args) {
             long [][] skyline = new long[q][3];
@@ -92,22 +86,13 @@ public class Skyline {
                 area+=((b-a)*alt);
             }
             System.out.println(area);
-
-        }
-    }
+        }  }
 
     public static class IntPair implements Comparable{
-        long ini;
-        long alt;
+        long ini; long alt;
 
-        public IntPair(long i, long a){
-            ini=i;
-            alt=a;
-        }
-
-        public void setAlt(long alt) {
-            this.alt = alt;
-        }
+        public IntPair(long i, long a){ ini=i; alt=a; }
+        public void setAlt(long alt) { this.alt = alt; }
 
         @Override
         public int compareTo(Object o) {

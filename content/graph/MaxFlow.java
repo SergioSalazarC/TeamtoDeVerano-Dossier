@@ -10,7 +10,7 @@
 public class Max_Flow {
 
 	HashMap<Integer,Integer>[] grafo
-
+    //s=start t=final v=Nvertices
     public static boolean BFS(HashMap<Integer,Integer>[] grafo, int s, int t , int parent[], int v){
         boolean[] visited = new boolean[v];
         visited[s]=true;
