@@ -60,8 +60,7 @@ public class Skyline {
             output.add(new IntPair(x,y));
         else {
             output.get(output.size() - 1).setAlt(y);
-        }
-    }
+        } }
 
     public static void appendSkyline(List<IntPair> output, List<IntPair> skyline, int p, long n, long currY) {
         while (p < n) {
@@ -97,7 +96,4 @@ public class Skyline {
         @Override
         public int compareTo(Object o) {
             IntPair i = (IntPair) o;
-            return (int) (this.ini-i.ini);
-        }
-    }
-}
+            return (int) (this.ini-i.ini);  } } }
