@@ -9,7 +9,6 @@
     static class UnionFind {
         private ArrayList<Integer> p, rank, setSize;
         private int numSets;
-
         public UnionFind(int N) {
             p = new ArrayList<>(N);
             rank = new ArrayList<>(N);
@@ -19,8 +18,7 @@
                 p.add(i);
                 rank.add(0);
                 setSize.add(1);
-            }
-        }
+            } }
 
         public int findSet(int i) {
             if (p.get(i) == i) return i;
@@ -36,6 +34,4 @@
                 if (rank.get(x) > rank.get(y)) { p.set(y, x); setSize.set(x, setSize.get(x) + setSize.get(y)); }
                 else{
                     p.set(x, y); setSize.set(y, setSize.get(y) + setSize.get(x));
-                    if (rank.get(x) == rank.get(y)) rank.set(y, rank.get(y) + 1); } } }
-    }
-
+                    if (rank.get(x) == rank.get(y)) rank.set(y, rank.get(y) + 1); } } }  }
