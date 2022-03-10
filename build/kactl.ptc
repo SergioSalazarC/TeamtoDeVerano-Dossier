@@ -8,23 +8,24 @@
 \contentsline {section}{\texttt {MaxFlow.java}\hspace {0.2em}}{1}{lstnumber.1.5.25}%
 \contentsline {section}{\texttt {StrongConnectedComponents.java}\hspace {0.2em}}{2}{lstnumber.1.6.64}%
 \contentsline {section}{\numberline {1.1}MaximumBipartiteMatching}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Math}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Number of Spanning Trees}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Teorema de Erdős–Gallai}{2}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {2}Matematicas}{2}{chapter.2}%
 \ttl@stoptoc {chapters@1}
 \ttl@starttoc {chapters@2}
 \contentsline {section}{\numberline {2.1}Ecuaciones}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Recurrencias}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Trigonometria}{2}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Geometria}{2}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Triangles}{2}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Geometria}{3}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Triangles}{3}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Cuadrilateros}{3}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Coordenadas esfericas}{3}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Derivadas e Integrales}{3}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Sumas}{3}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Series}{3}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Cadenas de Markov}{3}{section.2.8}%
 \contentsline {subsubsection}{Distribucion estacionaria}{3}{section*.1}%
-\contentsline {subsubsection}{Ergodicidad}{3}{section*.2}%
-\contentsline {subsubsection}{Absorvencia}{3}{section*.3}%
+\contentsline {subsubsection}{Absorvencia}{3}{section*.2}%
 \contentsline {chapter}{\numberline {3}Data structures}{3}{chapter.3}%
 \ttl@stoptoc {chapters@2}
 \ttl@starttoc {chapters@3}
