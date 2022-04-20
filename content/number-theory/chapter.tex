@@ -24,9 +24,9 @@
 	$$\left(x+\frac{kb}{\gcd(a,b)}, y-\frac{ka}{\gcd(a,b)}\right), \quad k\in\mathbb{Z}$$
 
 	\kactlimport{phiFunction.java}
-% \section{Fractions}
-% 	\kactlimport{ContinuedFractions.h}
-% 	\kactlimport{FracBinarySearch.h}
+\section{Fractions}
+	\kactlimport{ContinuedFractions.h}
+	\kactlimport{FracBinarySearch.h}
 
 \section{Ternas Pitagoricas}
  Las ternas pitagoricas son generadas de forma unica por
@@ -46,17 +46,17 @@
 
 	EL numero de divisores de $n$ es cercano a 100 para $n < 5e4$, 500 para $n < 1e7$, 2000 para $n < 1e10$, 200\,000 para $n < 1e19$.
 
-% \section{Mobius Function}
-% \[
-% 	\mu(n) = \begin{cases} 0 & n \textrm{ no tiene factores primos repetidos}\\ 1 & n \textrm{ tiene un numero par de factores primos}\\ -1 & n \textrm{ tiene un numero impar de factores primos}\\\end{cases}
-% \]
-%   Mobius Inversion:
-%
-%   \[ g(n) = \sum_{d|n} f(d) \Leftrightarrow f(n) = \sum_{d|n} \mu(d)g(n/d) \]
-%   Otras formulas utiles:\\
-%     La suma sobre todos los divisores positivos de n de la función de Mobius es cero excepto cuando n = 1.
-%   $ \sum_{d | n} \mu(d) = [ n = 1] $ (Muy util)
-%
-%   $ g(n) = \sum_{n|d} f(d) \Leftrightarrow f(n) = \sum_{n|d} \mu(d/n)g(d)$
-%
-%  $ g(n) = \sum_{1 \leq m \leq n} f(\left\lfloor\frac{n}{m}\right \rfloor ) \Leftrightarrow f(n) = \sum_{1\leq m\leq n} \mu(m)g(\left\lfloor\frac{n}{m}\right\rfloor)$
+\section{Mobius Function}
+\[
+	\mu(n) = \begin{cases} 0 & n \textrm{ no tiene factores primos repetidos}\\ 1 & n \textrm{ tiene un numero par de factores primos}\\ -1 & n \textrm{ tiene un numero impar de factores primos}\\\end{cases}
+\]
+  Mobius Inversion:
+
+  \[ g(n) = \sum_{d|n} f(d) \Leftrightarrow f(n) = \sum_{d|n} \mu(d)g(n/d) \]
+  Otras formulas utiles:\\
+    La suma sobre todos los divisores positivos de n de la función de Mobius es cero excepto cuando n = 1.
+  $ \sum_{d | n} \mu(d) = [ n = 1] $ (Muy util)
+
+  $ g(n) = \sum_{n|d} f(d) \Leftrightarrow f(n) = \sum_{n|d} \mu(d/n)g(d)$
+
+ $ g(n) = \sum_{1 \leq m \leq n} f(\left\lfloor\frac{n}{m}\right \rfloor ) \Leftrightarrow f(n) = \sum_{1\leq m\leq n} \mu(m)g(\left\lfloor\frac{n}{m}\right\rfloor)$

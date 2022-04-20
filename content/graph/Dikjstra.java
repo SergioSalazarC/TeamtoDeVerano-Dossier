@@ -17,13 +17,9 @@ public class Dikjstra {
 
         while(!pq.isEmpty()){
             IntPair top = pq.poll(); //poll==remove
-            int distop=top.d;
-            int vtop=top.v;
-            if(distop > dist[vtop]) continue;
-            for(IntPair aux: graf[vtop]){
-                int disaux=aux.d;
-                int vaux=aux.v;
-                if(dist[vtop]+disaux >= dist[vaux]) continue;
-                dist[vaux]=dist[vtop]+disaux;
-                pq.offer(new IntPair(vaux,dist[vaux]));
+            if(top.d > dist[top.v]) continue;
+            for(IntPair aux: graf[top.v]){
+                if(dist[top.v]+aux.d >= dist[top.v]) continue;
+                dist[aux.v]=dist[top.v]+aux.d;
+                pq.offer(new IntPair(aux.v,dist[aux.v]));
             } } } }

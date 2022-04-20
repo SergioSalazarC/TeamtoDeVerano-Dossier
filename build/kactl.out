@@ -9,25 +9,33 @@
 \BOOKMARK [1][-]{section.2.5}{Derivadas e Integrales}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.6}{Sumas}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.7}{Series}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.8}{Cadenas de Markov}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{Data structures}{}% 13
-\BOOKMARK [0][-]{chapter.4}{Numerical}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Polynomials and recurrences}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.2}{Matrices}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Number theory}{}% 17
-\BOOKMARK [1][-]{section.5.1}{Modular arithmetic}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.2}{Primality}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.3}{Divisibility}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.4}{Ternas Pitagoricas}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.5}{Primos}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.6}{Estimates}{chapter.5}% 23
-\BOOKMARK [0][-]{chapter.6}{Combinatorial}{}% 24
-\BOOKMARK [1][-]{section.6.1}{Permutations}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.2}{Partitions and subsets}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.3}{General purpose numbers}{chapter.6}% 27
-\BOOKMARK [0][-]{chapter.7}{Geometry}{}% 28
-\BOOKMARK [1][-]{section.7.1}{Geometric primitives}{chapter.7}% 29
-\BOOKMARK [1][-]{section.7.2}{Polygons}{chapter.7}% 30
-\BOOKMARK [0][-]{chapter.8}{Strings}{}% 31
-\BOOKMARK [0][-]{chapter.9}{Others}{}% 32
-\BOOKMARK [0][-]{chapter.10}{Y si no ac?}{}% 33
+\BOOKMARK [1][-]{section.2.8}{Probabilidad}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.9}{Cadenas de Markov}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Data structures}{}% 14
+\BOOKMARK [0][-]{chapter.4}{Numerical}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Polynomials and recurrences}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Optimization}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Matrices}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.4}{Fourier transforms}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Number theory}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Modular arithmetic}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Primality}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.3}{Divisibility}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.4}{Fractions}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.5}{Ternas Pitagoricas}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.6}{Primos}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.7}{Estimates}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.8}{Mobius Function}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.6}{Combinatorial}{}% 29
+\BOOKMARK [1][-]{section.6.1}{Permutations}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.2}{Partitions and subsets}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.3}{General purpose numbers}{chapter.6}% 32
+\BOOKMARK [0][-]{chapter.7}{Geometry}{}% 33
+\BOOKMARK [1][-]{section.7.1}{Geometric primitives}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.2}{Circles}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.3}{Polygons}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.4}{Misc. Point Set Problems}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.5}{3D}{chapter.7}% 38
+\BOOKMARK [0][-]{chapter.8}{Strings}{}% 39
+\BOOKMARK [0][-]{chapter.9}{Others}{}% 40
+\BOOKMARK [0][-]{chapter.10}{Y si no ac?}{}% 41

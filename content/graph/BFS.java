@@ -16,6 +16,7 @@ public class BFS {
         boolean[] visitados = new boolean[vertices];
         Queue<Integer> cola = new LinkedList<>();
         cola.add(start);
+        visitados[start]=true;
         while (cola.size() > 0) {
             Integer pop = cola.remove();
             if (graf[pop] == null) continue;

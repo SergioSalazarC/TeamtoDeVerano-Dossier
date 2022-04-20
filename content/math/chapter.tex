@@ -1,5 +1,5 @@
-% Written by Anders Sjoqvist and Ulf Lundstrom, 2009
-% The main sources are: tinyKACTL, Beta and Wikipedia
+Written by Anders Sjoqvist and Ulf Lundstrom, 2009
+The main sources are: tinyKACTL, Beta and Wikipedia
 
 \chapter{Matematicas}
 
@@ -53,23 +53,26 @@ Teorema del seno: $\dfrac{\sin\alpha}{a}=\dfrac{\sin\beta}{b}=\dfrac{\sin\gamma}
 Teorema del coseno: $a^2=b^2+c^2-2bc\cos\alpha$\\
 Teorema de la tangente: $\dfrac{a+b}{a-b}=\dfrac{\tan\dfrac{\alpha+\beta}{2}}{\tan\dfrac{\alpha-\beta}{2}}$\\
 
+
+
 \subsection{Cuadrilateros}
+
 Con lados de longitud $a,b,c,d$, diagonales $e, f$, angulos de la diagonal $\theta$, area $A$ y "flujo magico" $F=b^2+d^2-a^2-c^2$:
 
-\[ 4A = 2ef \cdot \sin\theta = F\tan\theta = \sqrt{4e^2f^2-F^2} \]
+$$4A = 2ef \cdot \sin\theta = F\tan\theta = \sqrt{4e^2f^2-F^2} $$
 
 Para cuadrilateros ciclicos la suma de los angulos opuestos es $180^\circ$,
 $ef = ac + bd$, y $A = \sqrt{(p-a)(p-b)(p-c)(p-d)}$.
 
-% \subsection{Coordenadas esfericas}
-% \begin{center}
-% \includegraphics[width=25mm]{content/math/sphericalCoordinates}
-% \end{center}
-% \[\begin{array}{cc}
-% x = r\sin\theta\cos\phi & r = \sqrt{x^2+y^2+z^2}\\
-% y = r\sin\theta\sin\phi & \theta = \textrm{arccos}(z/\sqrt{x^2+y^2+z^2})\\
-% z = r\cos\theta & \phi = \textrm{arctan}(y/x)
-% \end{array}\]
+\subsection{Coordenadas esfericas}
+\begin{center}
+\includegraphics{content/math/sphericalCoordinates}
+\end{center}
+\[\begin{array}{cc}
+x = r\sin\theta\cos\phi & r = \sqrt{x^2+y^2+z^2}\\
+y = r\sin\theta\sin\phi & \theta = \textrm{arccos}(z/\sqrt{x^2+y^2+z^2})\\
+z = r\cos\theta & \phi = \textrm{arctan}(y/x)
+\end{array}\]
 
 \section{Derivadas e Integrales}
 \begin{align*}
@@ -98,56 +101,56 @@ $$\sqrt{1+x} = 1+\frac{x}{2}-\frac{x^2}{8}+\frac{2x^3}{32}-\frac{5x^4}{128}+\dot
 $$\sin x = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\dots,\,(-\infty<x<\infty)$$
 $$\cos x = 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots,\,(-\infty<x<\infty)$$
 
-% \section{Probabilidad}
-% Sea $X$ una variable aleatoria con probabilidad $p_X(x)$ de tomar el valor $x$. Su esperanza es dada por $\mu=\mathbb{E}(X)=\sum_xxp_X(x)$ y varianza $\sigma^2=V(X)=\mathbb{E}(X^2)-(\mathbb{E}(X))^2=\sum_x(x-\mathbb{E}(X))^2p_X(x)$ donde $\sigma$ es la desviacion estandar. Si $X$ es una varibale contina la funcion de densidad es $f_X(x)$ y la suma de probabilidades con $p_X(x)$ es remplazada por la integral con $f_X(x)$.
-%
-% La esperanza es lineal:
-% \[\mathbb{E}(aX+bY) = a\mathbb{E}(X)+b\mathbb{E}(Y)\]
-% Para $X$ e $Y$ independientes, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
-%
-% \subsection{Distribuciones discretas}
-%
-% \subsubsection{Binomial distribution}
-% El numero de aciertos $n$ independientes en experimentos si/no , donde cada acierto tiene una probabilidad de $p$ es $\textrm{Bin}(n,p),\,n=1,2,\dots,\, 0\leq p\leq1$.
-% \[p(k)=\binom{n}{k}p^k(1-p)^{n-k}\]
-% \[\mu = np,\,\sigma^2=np(1-p)\]
-% $\textrm{Bin}(n,p)$ es aproximadamente $\textrm{Po}(np)$ para pequeños $p$.
-%
-% \subsubsection{DIstribucion del primer acierto (Geometrica)}
-% El numero de intentos necesarios hasta el primer acierto en experimentos de si/no, donde cada acierto tiene una probabilidad de $p$ es $\textrm{Fs}(p),\,0\leq p\leq1$.
-% \[p(k)=p(1-p)^{k-1},\,k=1,2,\dots\]
-% \[\mu = \frac1p,\,\sigma^2=\frac{1-p}{p^2}\]
-%
-% \subsubsection{DIstribucion de Poisson}
-% El numero de eventos ocurridos en un tiempo determinado $t$ si esos eventos ocurren con una media de $\kappa$ independientemente del tiempo desde el ultimo suceso es $\textrm{Po}(\lambda),\,\lambda=t\kappa$.
-% \[p(k)=e^{-\lambda}\frac{\lambda^k}{k!}, k=0,1,2,\dots\]
-% \[\mu=\lambda,\,\sigma^2=\lambda\]
-%
-% \subsection{Distribuciones continuas}
-%
-% \subsubsection{Distribucion uniforma}
-% Si la funcion de densidad es constante entre $a$ y $b$ y es 0 fuera de  $\textrm{U}(a,b),\,a<b$.
-% \[f(x) = \left\{
-% \begin{array}{cl}
-% \frac{1}{b-a} & a<x<b\\
-% 0 & \textrm{otherwise}
-% \end{array}\right.\]
-% \[\mu=\frac{a+b}{2},\,\sigma^2=\frac{(b-a)^2}{12}\]
-%
-% \subsubsection{Distribucion exponencial}
-% El tiempo entre eventos en un proceso de Poisson es $\textrm{Exp}(\lambda),\,\lambda>0$.
-% \[f(x) = \left\{
-% \begin{array}{cl}
-% \lambda e^{-\lambda x} & x\geq0\\
-% 0 & x<0
-% \end{array}\right.\]
-% \[\mu=\frac{1}{\lambda},\,\sigma^2=\frac{1}{\lambda^2}\]
-%
-% \subsubsection{Distribucion normal}
-% Mucho de los sucesos aleatorios reales con media $\mu$ y varianza $\sigma^2$ son bien descritos por $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
-% \[ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \]
-% If $X_1 \sim \mathcal{N}(\mu_1,\sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2,\sigma_2^2)$ then
-% \[ aX_1 + bX_2 + c \sim \mathcal{N}(\mu_1+\mu_2+c,a^2\sigma_1^2+b^2\sigma_2^2) \]
+\section{Probabilidad}
+Sea $X$ una variable aleatoria con probabilidad $p_X(x)$ de tomar el valor $x$. Su esperanza es dada por $\mu=\mathbb{E}(X)=\sum_xxp_X(x)$ y varianza $\sigma^2=V(X)=\mathbb{E}(X^2)-(\mathbb{E}(X))^2=\sum_x(x-\mathbb{E}(X))^2p_X(x)$ donde $\sigma$ es la desviacion estandar. Si $X$ es una varibale contina la funcion de densidad es $f_X(x)$ y la suma de probabilidades con $p_X(x)$ es remplazada por la integral con $f_X(x)$.
+
+La esperanza es lineal:
+\[\mathbb{E}(aX+bY) = a\mathbb{E}(X)+b\mathbb{E}(Y)\]
+Para $X$ e $Y$ independientes, \[V(aX+bY) = a^2V(X)+b^2V(Y).\]
+
+\subsection{Distribuciones discretas}
+
+\subsubsection{Binomial distribution}
+El numero de aciertos $n$ independientes en experimentos si/no , donde cada acierto tiene una probabilidad de $p$ es $\textrm{Bin}(n,p),\,n=1,2,\dots,\, 0\leq p\leq1$.
+\[p(k)=\binom{n}{k}p^k(1-p)^{n-k}\]
+\[\mu = np,\,\sigma^2=np(1-p)\]
+$\textrm{Bin}(n,p)$ es aproximadamente $\textrm{Po}(np)$ para pequeños $p$.
+
+\subsubsection{DIstribucion del primer acierto (Geometrica)}
+El numero de intentos necesarios hasta el primer acierto en experimentos de si/no, donde cada acierto tiene una probabilidad de $p$ es $\textrm{Fs}(p),\,0\leq p\leq1$.
+\[p(k)=p(1-p)^{k-1},\,k=1,2,\dots\]
+\[\mu = \frac1p,\,\sigma^2=\frac{1-p}{p^2}\]
+
+\subsubsection{DIstribucion de Poisson}
+El numero de eventos ocurridos en un tiempo determinado $t$ si esos eventos ocurren con una media de $\kappa$ independientemente del tiempo desde el ultimo suceso es $\textrm{Po}(\lambda),\,\lambda=t\kappa$.
+\[p(k)=e^{-\lambda}\frac{\lambda^k}{k!}, k=0,1,2,\dots\]
+\[\mu=\lambda,\,\sigma^2=\lambda\]
+
+\subsection{Distribuciones continuas}
+
+\subsubsection{Distribucion uniforma}
+Si la funcion de densidad es constante entre $a$ y $b$ y es 0 fuera de  $\textrm{U}(a,b),\,a<b$.
+\[f(x) = \left\{
+\begin{array}{cl}
+\frac{1}{b-a} & a<x<b\\
+0 & \textrm{otherwise}
+\end{array}\right.\]
+\[\mu=\frac{a+b}{2},\,\sigma^2=\frac{(b-a)^2}{12}\]
+
+\subsubsection{Distribucion exponencial}
+El tiempo entre eventos en un proceso de Poisson es $\textrm{Exp}(\lambda),\,\lambda>0$.
+\[f(x) = \left\{
+\begin{array}{cl}
+\lambda e^{-\lambda x} & x\geq0\\
+0 & x<0
+\end{array}\right.\]
+\[\mu=\frac{1}{\lambda},\,\sigma^2=\frac{1}{\lambda^2}\]
+
+\subsubsection{Distribucion normal}
+Mucho de los sucesos aleatorios reales con media $\mu$ y varianza $\sigma^2$ son bien descritos por $\mathcal{N}(\mu,\sigma^2),\,\sigma>0$.
+\[ f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \]
+If $X_1 \sim \mathcal{N}(\mu_1,\sigma_1^2)$ and $X_2 \sim \mathcal{N}(\mu_2,\sigma_2^2)$ then
+\[ aX_1 + bX_2 + c \sim \mathcal{N}(\mu_1+\mu_2+c,a^2\sigma_1^2+b^2\sigma_2^2) \]
 
 \section{Cadenas de Markov}
 Una \emph{Cadena de Markov} es un proceso aleatorio discreto con la propiedad de que el siguiente estado depende unicamente del estado actual.
@@ -164,10 +167,10 @@ $\pi_j/\pi_i$ es el numero experado de visitas en el estado $j$ entre dos visita
 
 Para un grafo conexo, no dirigido and no-bipartito, donde la la probabilidad de transicion es uniforme entre todos los vecinos, $\pi_i$ es proporcional al grado del nodo $i$.
 
-% \subsubsection{Ergodicidad}
-% Una cadena de Markov es \emph{ergodica} if the asymptotic si la distribucion asintotica es independiente del estado inicial de la distribucion.
-% Una cadena de Markov finita es ergodica si es irreducible y \emph{aperiodica} (i.e., el mcd de la longitud de los ciclos es 1).
-% $\lim_{k\rightarrow\infty}\mathbf{P}^k = \mathbf{1}\pi$.
+\subsubsection{Ergodicidad}
+Una cadena de Markov es \emph{ergodica} if the asymptotic si la distribucion asintotica es independiente del estado inicial de la distribucion.
+Una cadena de Markov finita es ergodica si es irreducible y \emph{aperiodica} (i.e., el mcd de la longitud de los ciclos es 1).
+$\lim_{k\rightarrow\infty}\mathbf{P}^k = \mathbf{1}\pi$.
 
 \subsubsection{Absorvencia}
 Una cadena de Markov es una A-cadena si los estados pueden ser particionados en dos conjuntos $\mathbf{A}$ y $\mathbf{G}$, tal que todos los estados en $\mathbf{A}$ son absorventes ($p_{ii}=1$), y tdos los estados en $\mathbf{G}$ acaban en un estado absorvente de$\mathbf{A}$.
